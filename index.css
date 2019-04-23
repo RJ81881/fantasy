@@ -1,0 +1,45 @@
+body {
+    background-color:rgb(150,122,5);
+    box-sizing:border-box;
+    color:white;
+    overflow:scroll;
+}
+/* body {
+    background-color:rgb(25,200,32);
+}
+*/
+footer a{
+    text-decoration:none;
+    color:white;
+    padding:20px;
+    margin:15px;
+    line-height:40px;
+}
+.btn{
+    width:125px;
+    height:50px;
+    border:1px solid black;
+    border-radius:10px;
+    position:absolute;
+    left:30%;
+    background-color:green;
+}
+.btn a{
+     padding:22px;
+     color:white;
+     text-align:center;
+     line-height:50px;
+     text-decoration:none;
+     font-size:20px;
+}
+
+.term input{
+    position:absolute;
+    left:10%;
+    top:87%;
+}
+.term p{
+    position:absolute;
+    left:19%;
+    top:84%;
+}
