@@ -25,7 +25,12 @@ footer a{
     text-align:center;
     background-color:green;
 }
-a{
+.t{
+     width:auto;
+    height:auto;
+    border:1px solid black;
+}
+.t a{
      padding:25px;
      color:white;
      text-align:center;
