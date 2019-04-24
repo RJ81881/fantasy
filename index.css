@@ -35,12 +35,12 @@ a{
 }
 
 .term input{
-    position:absolute;
-    left:10%;
-    top:87%;
+    font-size:40px;
+}
+.term input:focus{
+    background-color:yellow;
 }
 .term p{
-    position:absolute;
-    left:19%;
-    top:84%;
+    font-size:40px;
+    float:left;
 }
