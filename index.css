@@ -34,8 +34,11 @@ a{
      font-size:40px;
 }
 
-.term input:checkbox{
-    font-size:40px;
+.term{
+     height:200px;
+     position:absolute;
+     top:75%;
+     left:30%;
 }
 .term input:focus{
     background-color:yellow;
