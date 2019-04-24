@@ -33,7 +33,11 @@ a{
      text-decoration:none;
      font-size:40px;
 }
-
+input{
+    float:left;
+    width:100px;
+    height:100px;
+}
 .term{
      height:200px;
      position:absolute;
