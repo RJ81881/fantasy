@@ -39,12 +39,12 @@ footer a{
      text-decoration:none;
      font-size:45px;
 }
-.term{
+/*.term{
      height:300px;
      border:1px solid black;
      display:inline;
      margin:40px 20px;
-}
+} */
 input{
     margin:30px;
     padding:20px;
