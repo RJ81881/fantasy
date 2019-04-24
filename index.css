@@ -40,14 +40,15 @@ footer a{
      font-size:45px;
 }
 .term{
-     height:200px;
+     height:300px;
      border:1px solid black;
-     margin:40px 40px;
+     margin:40px 20px;
 }
 input{
     margin:30px;
     padding:20px;
     width:50px;
+    float:left;
     height:50px;
 }
 .term p{
