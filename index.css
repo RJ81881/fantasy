@@ -37,13 +37,6 @@ footer a{
      text-decoration:none;
      font-size:45px;
 }
-.term{
-     height:300px;
-     width:auto;
-     display:inline;
-     border:1px solid black;
-     margin:40px 20px;
-}
 input{
     margin:30px 25px;
     padding:15px;
@@ -54,4 +47,6 @@ input{
     font-size:40px;
     margin-left:5px;
     line-height:55px;
+    position:absolute;
+    left:30%;
 }
