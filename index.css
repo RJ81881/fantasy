@@ -16,10 +16,10 @@ footer a{
     line-height:40px;
 }
 .btn{
-    width:500px;
-    height:120px;
+    width:450px;
+    height:150px;
     border:1px solid black;
-    border-radius:20px;
+    border-radius:25px;
     position:absolute;
     left:30%;
     text-align:center;
@@ -29,7 +29,7 @@ footer a{
      padding:25px;
      color:white;
      text-align:center;
-     line-height:120px;
+     line-height:150px;
      text-decoration:none;
      font-size:40px;
 }
