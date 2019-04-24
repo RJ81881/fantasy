@@ -34,7 +34,7 @@ a{
      font-size:40px;
 }
 
-.term input{
+.term input:checkbox{
     font-size:40px;
 }
 .term input:focus{
