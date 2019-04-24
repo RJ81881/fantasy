@@ -16,8 +16,8 @@ footer a{
     line-height:40px;
 }
 .btn{
-    width:450px;
-    height:350px;
+    width:400px;
+    height:300px;
     border:1px solid black;
     border-radius:10px;
     position:absolute;
@@ -30,7 +30,7 @@ footer a{
      text-align:center;
      line-height:300px;
      text-decoration:none;
-     font-size:45px;
+     font-size:40px;
 }
 
 .term input{
