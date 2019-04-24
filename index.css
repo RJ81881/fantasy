@@ -15,6 +15,11 @@ footer a{
     margin:15px;
     line-height:40px;
 }
+.t{
+     width:auto;
+    height:120px;
+    border:1px solid black;
+}
 .t .btn{
     width:450px;
     height:150px;
@@ -24,11 +29,6 @@ footer a{
     left:30%;
     text-align:center;
     background-color:green;
-}
-.t{
-     width:auto;
-    height:120px;
-    border:1px solid black;
 }
 .t a{
      padding:25px;
