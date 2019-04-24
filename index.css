@@ -38,10 +38,6 @@ a{
      height:200px;
      position:absolute;
      top:95%;
-     left:20%;
-}
-.term input:focus{
-    background-color:yellow;
 }
 .term p{
     font-size:40px;
