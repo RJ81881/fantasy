@@ -20,7 +20,7 @@ footer a{
     height:160px;
     border:1px solid black;
 }
-.t .btn{
+.t a .btn{
     width:450px;
     height:150px;
     border:1px solid black;
@@ -50,7 +50,7 @@ input{
      position:absolute;
      top:95%;
      border:1px solid black;
-     margin:20px;
+     margin:40px 20px;
 }
 .term p{
     font-size:45px;
