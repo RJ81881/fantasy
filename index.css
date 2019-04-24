@@ -44,8 +44,7 @@ footer a{
      border:1px solid black;
      margin:40px 40px;
 }
-.term input{
-    float:left;
+input{
     margin:30px;
     padding:20px;
     width:50px;
