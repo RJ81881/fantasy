@@ -42,18 +42,17 @@ footer a{
 .term{
      height:300px;
      border:1px solid black;
+     display:inline;
      margin:40px 20px;
 }
 input{
     margin:30px;
     padding:20px;
     width:50px;
-    float:left;
     height:50px;
 }
 .term p{
-    font-size:45px;
-    margin-left:25px;
-    line-height:65px;
-    float:left;
+    font-size:40px;
+    margin-left:15px;
+    line-height:60px;
 }
