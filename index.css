@@ -39,6 +39,7 @@ footer a{
 }
 .term{
      height:300px;
+     width:auto;
      display:inline;
      border:1px solid black;
      margin:40px 20px;
