@@ -38,7 +38,7 @@ footer a{
      font-size:45px;
 }
 input{
-    margin:30px 25px;
+    margin:50px 25px;
     padding:15px;
     width:50px;
     height:50px;
@@ -49,5 +49,5 @@ input{
     line-height:55px;
     position:absolute;
     left:20%;
-    top:20%;
+    bottom:20%;
 }
