@@ -37,8 +37,8 @@ a{
 .term{
      height:200px;
      position:absolute;
-     top:75%;
-     left:30%;
+     top:89%;
+     left:20%;
 }
 .term input:focus{
     background-color:yellow;
