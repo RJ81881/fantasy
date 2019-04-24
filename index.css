@@ -46,13 +46,13 @@ footer a{
      margin:40px 20px;
 } */
 input{
-    margin:30px 25px;
+    margin:30px 15px;
     padding:15px;
     width:50px;
     height:50px;
 }
 .term p{
     font-size:40px;
-    margin-left:5px;
+    margin-left:10px;
     line-height:55px;
 }
