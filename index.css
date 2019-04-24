@@ -54,5 +54,6 @@ input{
 .term p{
     font-size:40px;
     margin-left:15px;
+    float:left;
     line-height:60px;
 }
