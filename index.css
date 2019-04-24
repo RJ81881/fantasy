@@ -48,6 +48,7 @@ input{
      margin:20px;
 }
 .term p{
-    font-size:40px;
-    margin-left:15px;
+    font-size:45px;
+    margin-left:25px;
+    line-height:65px;
 }
