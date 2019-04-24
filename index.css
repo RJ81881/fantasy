@@ -16,12 +16,13 @@ footer a{
     line-height:40px;
 }
 .btn{
-    width:400px;
-    height:300px;
+    width:350px;
+    height:200px;
     border:1px solid black;
-    border-radius:10px;
+    border-radius:18px;
     position:absolute;
     left:30%;
+    text-align:center;
     background-color:green;
 }
 .btn a{
