@@ -39,15 +39,12 @@ footer a{
      text-decoration:none;
      font-size:45px;
 }
-/*
 .term{
      height:200px;
-     position:absolute;
-     top:99%;
      border:1px solid black;
      margin:40px 20px;
 }
-input{
+.term input{
     float:left;
     margin:30px;
     padding:20px;
@@ -59,4 +56,3 @@ input{
     margin-left:25px;
     line-height:65px;
 }
-*/
