@@ -15,11 +15,12 @@ footer a{
     margin:15px;
     line-height:40px;
 }
-/*.t{
-     width:auto;
-    height:160px;
+.t{
+    width:auto;
+    height:300px;
     border:1px solid black;
-} */
+}
+/*
 .t a .btn{
     width:450px;
     height:150px;
@@ -57,3 +58,4 @@ input{
     margin-left:25px;
     line-height:65px;
 }
+*/
