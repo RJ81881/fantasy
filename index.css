@@ -45,9 +45,9 @@ input{
     height:50px;
 }
 .term p{
-    font-size:40px;
+    font-size:35px;
     margin-left:5px;
-    line-height:55px;
+    line-height:50px;
     position:absolute;
     left:15%;
     bottom:-13%;
