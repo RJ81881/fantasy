@@ -40,3 +40,12 @@
         {
               left:0px;
         }
+      p{
+	  font-size:40px;
+	    padding:15px;
+	    }
+   p #Name{
+	   position:absolut;
+	   left:220px;
+	   top:200px;
+	   }
