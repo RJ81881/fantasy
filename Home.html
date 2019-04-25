@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Page Title</title>
-        <link rel="stylesheet" href="index.css"/>
+        <link rel="stylesheet" href="Home.css"/>
     </head>
     <body>
     <h1 style="color:white; font-family:courier; font-size:70px; text-align:center; line-height:85px;font-weight:bold;">PRO CIRCLE 11</h1>
@@ -32,6 +32,29 @@
           </ul>
       </div>  
        
+      <script>
+    var i=0;
+    function gg()
+{  
+document.getElementById("sidebar").classList.toggle('active');
+i++;
+  ff(i);
+}
+function ff(i){
+   if((i%2)!=0) 
+   {  
+      document.getElementById("m").style.display="none";
+      document.getElementById("L").style.display="none";
+   }
+else
+{
+   document.getElementById("m").style.display="block"; 
+   document.getElementById("L").style.display="block"; 
+}
+}
+</script>
+    </body>
+</html>
        
        
        
