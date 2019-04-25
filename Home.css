@@ -39,8 +39,4 @@
         #sidebar.active 
         {
               left:0px;
-        }   
-         #sidebar .toggle:hover
-          {
-              background-color:Dodgerblue;
-          }
+        }
