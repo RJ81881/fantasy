@@ -31,9 +31,10 @@
         }    
          #sidebar .toggle span{
              display:block;
-             width:55px;
-             height:10px;
+             width:65px;
+             height:11px;
              background-color:green;
+             color:green;
              margin:10px 5px;
          }  
         #sidebar.active 
