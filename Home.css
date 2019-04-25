@@ -1,8 +1,8 @@
 #sidebar{
            position:absolute;
-           width:550px;
+           width:700px;
            height:4000px;
-           left:-550px;
+           left:-700px;
            opacity:1.0;
            background-color:black;
        }     
@@ -14,7 +14,7 @@
          }  
          #sidebar .toggle{
              position:absolute;
-             left:550px;
+             left:700px;
              top:0px;
              width:60px;
              height:50px;
