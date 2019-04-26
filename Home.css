@@ -63,12 +63,12 @@
 .r:hover{ border-bottom:6px solid black;}
 		
 .mbox{
-     width:900px;
+     width:950px;
      height:400px;
      border:1px solid black;
      border-radius:30px;
-     margin:15px;
-     paddding:15px;
+     margin:10px;
+     paddding:10px;
      background-color:white;	
 }	
 figure .img1{
@@ -80,5 +80,5 @@ figure .img1{
       padding:5px;
 }
 figcaption{ font-size:45px;color:black;margin-left:30px;padding-left:30px;} 
-.mbox p{font-size:45px;color:black;position:absolute;left:280px;top:340px;}
+.mbox p{font-size:45px;color:black;position:absolute;left:260px;top:330px;}
 	
