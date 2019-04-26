@@ -92,7 +92,7 @@ figure .img2{
       right:50px;
 	top:310px; 
 }
-figure .img2 figcaption{
+ .cap{
 	position:absolute;
       right:50px;
 	top:360px; }
