@@ -6,7 +6,7 @@
            opacity:1.0;
            background-color:black;
        }     
-         #sidebar ul li{
+         #sidebar ul li , .block ul li{
              color:white;
              list-style-type:none;
              padding:25px 15px;
@@ -21,7 +21,7 @@
              margin:0px;
              padding:20px 15px;
             }
-          #sidebar ul li a{
+          #sidebar ul li a , .block ul li a{
             color:white;
 			font-size:35px;
             text-decoration:none;
