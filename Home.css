@@ -62,5 +62,9 @@
 .main .r h3{font-size:55px;text-align:center;color:white;line-height:130px;} 
 .r:hover{ border-bottom:6px solid black;}
 		
-	
-	
+.mbox{
+     width:650px;
+     height:500px;
+     border:1px solid black;
+     border-radius:15px;	
+}	
