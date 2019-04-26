@@ -80,7 +80,7 @@ figure .img1{
       padding:5px;
 }
 figcaption{ font-size:45px;color:black;margin-left:30px;padding-left:30px;} 
-.mbox p{font-size:45px;color:black;position:absolute;left:250px;top:310px;}
+.mbox p{font-size:45px;color:black;position:absolute;left:250px;top:310px;float:left;}
 figure .img2{
 	 width:150px;
       height:150px;
