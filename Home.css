@@ -1,4 +1,4 @@
-#sidebar{
+. menu #sidebar{
            position:absolute;
            width:700px;
            height:2000px;
@@ -6,14 +6,14 @@
            opacity:1.0;
            background-color:black;
        }     
-         #sidebar ul li , .block ul li{
+        .menu #sidebar ul li , .block ul li{
              color:black;
 		 
              list-style-type:none;
              padding:30px 20px;
 			 font-size:45px;
          }  
-         #sidebar .toggle{
+        .menu #sidebar .toggle{
              position:absolute;
              left:700px;
              top:0px;
@@ -22,7 +22,7 @@
              margin:0px;
              padding:20px 15px;
             }
-          #sidebar ul li a , .block ul li a{
+         .menu #sidebar ul li a , .block ul li a{
             color:black;
 		  
 		  line-height:60px;
@@ -31,14 +31,14 @@
             text-decoration:none;
             padding:30px 20px;
         }    
-         #sidebar .toggle span{
+        .menu #sidebar .toggle span{
              display:block;
              width:65px;
              height:7px;
              background-color:white;
              margin:13px 10px;
          }  
-        #sidebar.active 
+       .menu #sidebar.active 
         {
               left:0px;
         }
@@ -56,3 +56,7 @@
 	   left:270px;
 	   top:430px;
        } 
+. main{ width:100%; height:600px;border:1px solid black;} 
+. main h1{font-size:70px;color:black;line-height:80px;}
+	
+	
