@@ -1,7 +1,7 @@
 #sidebar{
            position:absolute;
            width:700px;
-           height:4000px;
+           height:2000px;
            left:-700px;
            opacity:1.0;
            background-color:black;
@@ -10,7 +10,7 @@
              color:black;
              list-style-type:none;
              padding:25px 15px;
-			 font-size:35px;
+			 font-size:40px;
          }  
          #sidebar .toggle{
              position:absolute;
@@ -23,10 +23,9 @@
             }
           #sidebar ul li a , .block ul li a{
             color:black;
-			font-size:35px;
+			font-size:40px;
             text-decoration:none;
             padding:25px 15px;
-            font-weight:bold;
         }    
          #sidebar .toggle span{
              display:block;
