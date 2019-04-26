@@ -10,7 +10,7 @@
              color:black;
 		 text-align:center;
              list-style-type:none;
-             padding:25px 15px;
+             padding:30px 20px;
 			 font-size:40px;
          }  
          #sidebar .toggle{
@@ -28,7 +28,7 @@
 		  line-height:60px;
 			font-size:40px;
             text-decoration:none;
-            padding:25px 15px;
+            padding:30px 20px;
         }    
          #sidebar .toggle span{
              display:block;
