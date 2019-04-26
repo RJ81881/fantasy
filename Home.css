@@ -43,10 +43,9 @@
       p{
 	  font-size:40px;
 	    padding:15px;
-	      clear:both;
 	    }
    p #Name{
 	   position:absolut;
-	  /* left:220px;
-	   top:200px; */
+	   left:220px;
+	   top:400px;
 	   }
