@@ -67,7 +67,7 @@
      height:400px;
      border:1px solid black;
      border-radius:30px;
-     margin:25px;
+     margin:10px;
      paddding:10px;
      background-color:white;	
 }	
@@ -94,5 +94,5 @@ figure .img2{
 }
  .cap{
 	position:absolute;
-      right:80px;
-	top:490px; }
+      right:50px;
+	top:360px; }
