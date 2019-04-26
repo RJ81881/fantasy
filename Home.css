@@ -60,7 +60,7 @@
 .main{ width:100%; height:600px;border:1px solid black;} 
 .main h1{font-size:70px;text-align:center;padding:5px 5px 0px 25px;margin:10px 10px 5px 10px;color:white;line-height:80px;} 
 .main .r h3{font-size:55px;text-align:center;color:white;line-height:130px;} 
-.r:hover{ border-bottom:2px solid grey;}
+.r:hover{ border-bottom:2px solid black;}
 		
 	
 	
