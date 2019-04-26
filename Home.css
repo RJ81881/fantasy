@@ -7,7 +7,7 @@
            background-color:black;
        }     
          #sidebar ul li , .block ul li{
-             color:white;
+             color:black;
              list-style-type:none;
              padding:25px 15px;
 			 font-size:35px;
@@ -22,7 +22,7 @@
              padding:20px 15px;
             }
           #sidebar ul li a , .block ul li a{
-            color:white;
+            color:black;
 			font-size:35px;
             text-decoration:none;
             padding:25px 15px;
