@@ -23,6 +23,8 @@
             }
           #sidebar ul li a , .block ul li a{
             color:black;
+		  text-align:center;
+		  line-height:60px;
 			font-size:40px;
             text-decoration:none;
             padding:25px 15px;
