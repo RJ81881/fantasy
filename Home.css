@@ -8,10 +8,10 @@
        }     
          #sidebar ul li , .block ul li{
              color:black;
-		 text-align:center;
+		 
              list-style-type:none;
              padding:30px 20px;
-			 font-size:40px;
+			 font-size:45px;
          }  
          #sidebar .toggle{
              position:absolute;
@@ -24,9 +24,10 @@
             }
           #sidebar ul li a , .block ul li a{
             color:black;
-		  text-align:center;
+		  
 		  line-height:60px;
-			font-size:40px;
+			font-size:45px;
+		  line-height:60px;
             text-decoration:none;
             padding:30px 20px;
         }    
