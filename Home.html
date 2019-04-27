@@ -205,6 +205,67 @@ setTimeout(counter2,1000);
         </script>  
 	    </div>
 	      
+	
+	
+	      
+	      
+	      
+	      <div class="mbox">
+	     <figure> 
+		     <img src="https://i.pinimg.com/236x/64/34/72/64347217c361eb874da10a17b72dabe4.jpg" class="img1"/>
+		     <figcaption>RCB</figcaption>
+             </figure>
+		      <p style="font-size:45px;color:black;position:absolute;left:250px;top:1235px;float:left;">Indian Premier League</p>
+	     <figure> 
+	     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3Qwttju0b60Pmi-VAXVR2fBvHP1yzcrEATDANuWvHvP--WyH7" style=" width:150px;
+      height:150px;
+      margin:5px;
+      border:1px solid black;
+      border-radius:50%;	
+      padding:5px;
+      position:absolute;
+      right:50px;
+	top:1250px;"/>
+		     <figcaption style="position:absolute;
+      right:90px;
+	top:1425px;">KKR</figcaption>
+             </figure>	      
+	      
+    <table style="position:absolute;left:270px;top:1430px;">
+	    <tr class="time">
+	    <td id="da"></td>
+	<td id="hou"></td>
+	<td id="minut"></td>
+	<td id="secon"></td>
+	    </tr>
+   </table>
+		      
+		 <script>	
+        counter2();
+        
+function counter2() { 
+     var currentdate = new Date(); 
+var matchdate = 
+ new Date("april 29,2019 06:00:00");      
+var presenttime = currentdate.getTime(); 
+var matchtime = matchdate.getTime(); 
+var rtime = matchtime - presenttime ; 
+var s1 = Math.floor(rtime/1000); 
+var m1 = Math.floor(s1/60); 
+var h1 = Math.floor(m1/60); 
+var d1 = Math.floor(h1/24); 
+h1 %= 24; 
+m1 %= 60; 
+s1 %= 60; 
+h1 = (h1<10)? "0"+h1 : h1; 
+m1 = (m1<10)? "0"+m1 : m1; 
+s1 = (s1<10)? "0"+s1 : s1;
+ document.getElementById("da").innerHTML = d1 + "d :"; document.getElementById("hou").innerHTML = h1 + "h :"; document.getElementById("minut").innerHTML = m1 + "m :"; document.getElementById("secon").innerHTML = s1 + "s"; 
+setTimeout(counter2,1000);
+ }
+        
+        </script>  
+	    </div>    
 	      
 	      
 	      
