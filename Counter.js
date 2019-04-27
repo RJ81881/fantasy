@@ -19,10 +19,10 @@ function counter(d,h,m,s) {
  m1 = (m1<10)? "0"+m1 : m1;
  s1 = (s1<10)? "0"+s1 : s1;
  
- document.getElementById("days").textcontent = d1 + "d:";
- document.getElementById("hours").textcontent = d1 + "h:";
- document.getElementById("minutes").textcontent = d1 + "m:";
- document.getElementById("seconds").textcontent = d1 + "s:";
+ document.getElementById("days").innerHTML = d1 + "d:";
+ document.getElementById("hours").innerHTML = h1 + "h:";
+ document.getElementById("minutes").innerHTML = m1 + "m:";
+ document.getElementById("seconds").innerHTML = s1 + "s:";
  
  setTimeout(counter,1000);
  }
