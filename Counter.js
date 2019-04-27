@@ -1,4 +1,4 @@
-function counter(d,h,m,s) {
+ function counter() {
  var date = new Date();
  var matchdate = Date(d,h,m,s);
  
