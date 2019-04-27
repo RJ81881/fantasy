@@ -98,3 +98,5 @@ figure .img2{
 	position:absolute;
       right:90px;
 	top:490px; }
+table tr td{color:black;font-size:30px;line-height:30px;}
+.mbox .counter{border:1px solid black;position:absolute;left:300px;top:490px;}
