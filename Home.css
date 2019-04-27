@@ -98,5 +98,6 @@ figure .img2{
 	position:absolute;
       right:90px;
 	top:490px; }
+table,tr,td{ border:none;}
 table tr td{color:black;font-size:45px;line-height:50px;}
 .mbox .counter{border:1px solid black;position:absolute;left:310px;top:490px;}
