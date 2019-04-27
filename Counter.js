@@ -11,7 +11,18 @@ function counter(d,h,m,s) {
  var h1 =  Math.floor(h1/60);
  var d1 =  Math.floor(h1/24);
  
+ h1 %= 24;
+ m1 %= 60;
+ s1 %= 60;
+ 
+ h1 = (h1<10)? "0"+h1 : h1;
+ m1 = (m1<10)? "0"+m1 : m1;
+ s1 = (s1<10)? "0"+s1 : s1;
+ 
  document.getElementById("days").innerHTML = d1 + "d:";
- document.getElementById("days").innerHTML = d1 + "d:";
- document.getElementById("days").innerHTML = d1 + "d:";
- document.getElementById("days").innerHTML = d1 + "d:";
+ document.getElementById("hours").innerHTML = d1 + "h:";
+ document.getElementById("minutes").innerHTML = d1 + "m:";
+ document.getElementById("seconds").innerHTML = d1 + "s:";
+ 
+ setTimeout(counter,1000);
+ }
