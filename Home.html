@@ -233,10 +233,10 @@ setTimeout(counter2,1000);
 	      
     <table style="position:absolute;left:270px;top:1430px;">
 	    <tr class="time">
-	    <td id="da"></td>
-	<td id="hou"></td>
-	<td id="minut"></td>
-	<td id="secon"></td>
+	    <td id="dt"></td>
+	<td id="ho"></td>
+	<td id="minu"></td>
+	<td id="seco"></td>
 	    </tr>
    </table>
 		      
@@ -260,7 +260,7 @@ s1 %= 60;
 h1 = (h1<10)? "0"+h1 : h1; 
 m1 = (m1<10)? "0"+m1 : m1; 
 s1 = (s1<10)? "0"+s1 : s1;
- document.getElementById("da").innerHTML = d1 + "d :"; document.getElementById("hou").innerHTML = h1 + "h :"; document.getElementById("minut").innerHTML = m1 + "m :"; document.getElementById("secon").innerHTML = s1 + "s"; 
+ document.getElementById("dt").innerHTML = d1 + "d :"; document.getElementById("ho").innerHTML = h1 + "h :"; document.getElementById("minu").innerHTML = m1 + "m :"; document.getElementById("seco").innerHTML = s1 + "s"; 
 setTimeout(counter3,1000);
  }
         
