@@ -3,7 +3,7 @@
     <head>
         <title>Page Title</title>
         <link rel="stylesheet" href="Home.css"/>
-	<link rel="stylesheet" href="index.css"/><script src="counter.js"></script>
+	<link rel="stylesheet" href="index.css"/>
 
     </head>
     <body>
@@ -48,7 +48,7 @@
 		     <figcaption class="cap">CSK</figcaption>
              </figure>	      
 	      
-    <table class="counter" counter(120,50,10,1);>
+    <table class="counter">
 	    <tr class="time">
 	    <td id="days">120d:</td>
 	<td id="hours">50h:</td>
@@ -76,10 +76,38 @@ else
    document.getElementById("zz").style.display="block"; 
 }
 }
-		      
-		counter(120,50,10,1);
-            
-        </script>      
-</script>
+      </script>      
+<script>
+	    function counter() {
+ var date = new Date();
+ var matchdate = Date(d,h,m,s);
+ 
+ var presenttime = date.getTime();
+ var matchtime = matchdate.getTime();
+  
+ var rtime = matchtime - presenttime ;
+ var s1 =  Math.floor(rtime/1000);
+ var m1 =  Math.floor(s1/60);
+ var h1 =  Math.floor(h1/60);
+ var d1 =  Math.floor(h1/24);
+ 
+ h1 %= 24;
+ m1 %= 60;
+ s1 %= 60;
+ 
+ h1 = (h1<10)? "0"+h1 : h1;
+ m1 = (m1<10)? "0"+m1 : m1;
+ s1 = (s1<10)? "0"+s1 : s1;
+ 
+ document.getElementById("days").innerHTML = d1 + "d:";
+ document.getElementById("hours").innerHTML = h1 + "h:";
+ document.getElementById("minutes").innerHTML = m1 + "m:";
+ document.getElementById("seconds").innerHTML = s1 + "s:";
+ 
+ setTimeout(counter,1000);
+ }
+counter();
+	    </script>
+	
     </body>
 </html>
