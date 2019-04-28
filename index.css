@@ -41,4 +41,4 @@ footer a{
 } */
 .term{ width:800px;height:400px;border:1px solid black;padding:25px;margin:25px 40px;}
 .term a{ font-size:50px;color:white;padding:25px;margin:25px;text-decoration:none;
-    border:1px solid black;border-radius:15px;background-color:green;}
+    border:1px solid black;border-radius:15px;background-color:green;text-align:center;}
