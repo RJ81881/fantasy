@@ -39,5 +39,5 @@ footer a{
      text-decoration:none;
      font-size:45px;
 } */
-.term a{ font-size:45px;color:white;padding:25px;margin:25px;text-decoration:none;
-    border:1px solid black;background-color:green;}
+.term a{ font-size:60px;color:white;padding:30px;margin:30px;text-decoration:none;
+    border:1px solid black;border-radius:15px;background-color:green;}
