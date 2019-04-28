@@ -4,10 +4,6 @@ body {
     color:white;
     overflow:scroll;
 }
-/* body {
-    background-color:rgb(25,200,32);
-}
-*/
 footer a{
     text-decoration:none;
     color:white;
@@ -15,11 +11,6 @@ footer a{
     margin:30px;
     font-size:40px;
     line-height:80px;
-}
- 
-/* .t{
-    width:auto;
-    height:300px;
 }
 .t a .btn{
     width:450px;
