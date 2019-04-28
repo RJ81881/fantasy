@@ -38,17 +38,5 @@ footer a{
      text-decoration:none;
      font-size:45px;
 }
-input{
-    margin:70px 45px;
-    padding:15px;
-    width:50px;
-    height:50px;
-}
-.term p{
-    font-size:35px;
-    margin-left:5px;
-    line-height:50px;
-    position:absolute;
-    left:15%;
-    bottom:-10%;
-}   
+.term a{ font-size:45px;color:white;padding:25px;margin:25px;text-decoration:none;
+    border:1px solid black;background-color:green;}
