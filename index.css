@@ -5,7 +5,7 @@ body {
     overflow:scroll;
 }
 footer{
-    width:700px;
+    width:100%;
     height:200px;
     position:absolute;
     top:1300px;
@@ -46,7 +46,7 @@ footer a{
     position:absolute;
     top:1050px;
     left:50px;
-    margin:60px;
+    margin:20px;
     padding:20px;
     }
 .term a{ 
@@ -60,7 +60,6 @@ footer a{
     background-color:green;
     text-align:center; 
     position:absolute;
-    left:100px;
 }
 .term1 a{
     font-size:50px;
@@ -73,5 +72,5 @@ footer a{
     background-color:green;
     text-align:center; 
     position:absolute;
-    left:350px;
+   
     }
