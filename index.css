@@ -32,9 +32,10 @@ footer a{
      font-size:45px;
 } 
 */
-.term{
+.term,.term1{
     width:500px;
     height:300px;
+    float:left;
     position:absolute;
     top:1100px;
     left:150px;
@@ -55,7 +56,16 @@ footer a{
     position:absolute;
     left:150px
 }
-.term .log{
+.term1 a{
+    font-size:50px;
+    color:white;
+    padding:25px;
+    margin:25px 25px 40px 10px;
+    text-decoration:none;
+    border:1px solid black;
+    border-radius:15px;
+    background-color:green;
+    text-align:center; 
     position:absolute;
     left:200px;
     }
