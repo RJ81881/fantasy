@@ -31,5 +31,5 @@ footer a{
      font-size:45px;
 } */
 .term{ width:800px;height:150px;padding:35px;margin:10px 80px;}
-.term a{ font-size:50px;color:white;padding:25px;margin:25px;text-decoration:none;
+.term a{ font-size:50px;color:white;padding:25px;margin:25px 25px 40px 25px;text-decoration:none;
     border:1px solid black;border-radius:15px;background-color:green;text-align:center;}
