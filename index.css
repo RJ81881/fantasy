@@ -4,6 +4,10 @@ body {
     color:white;
     overflow:scroll;
 }
+footer{
+    position:relative;
+    top:100px;
+    }
 footer a{
     text-decoration:none;
     color:white;
