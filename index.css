@@ -5,6 +5,8 @@ body {
     overflow:scroll;
 }
 footer{
+    width:auto;
+    height:300px;
     position:absolute;
     top:1000px;
     }
