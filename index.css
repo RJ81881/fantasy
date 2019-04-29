@@ -35,6 +35,8 @@ footer a{
 .term{
     width:auto;
     height:300px;
+    position:absolute;
+    top:900px;
     margin:20px;
     padding:20px;
     }
