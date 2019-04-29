@@ -5,8 +5,8 @@ body {
     overflow:scroll;
 }
 footer{
-    position:relative;
-    top:100px;
+    position:absolute;
+    top:1000px;
     }
 footer a{
     text-decoration:none;
