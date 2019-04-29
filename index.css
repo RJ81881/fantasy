@@ -36,15 +36,15 @@ footer a{
     width:500px;
     height:300px;
     position:absolute;
-    top:1200px;
-    left:200px;
+    top:1100px;
+    left:150px;
     margin:20px;
     padding:20px;
     border:1px solid black;
     }
 .term a{ font-size:50px;color:white;padding:25px;margin:25px 25px 40px 25px;text-decoration:none;
     border:1px solid black;border-radius:15px;background-color:green;text-align:center; position:absolute;left:200px}
-.log{
+term .log{
     position:absolute;
     left:200px;
     }
