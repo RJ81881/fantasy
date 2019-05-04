@@ -3,20 +3,16 @@
     <head>
         <title>Page Title</title>
         <link rel="stylesheet" href="index.css"/>
-        <meta name="viewport" content="width=device-width , initial-scale=1.2"/>
+        <meta name="viewport" content="width=device-width , initial-scale=1.1"/>
         <style>
            .signup{
-               width:400px;
-               height:500px;
+               width:300px;
+               height:400px;
                background:black;
                padding:50px 30px;
-               position:absolute;
-               left:50%;
                border-radius:20px;
-               top:50%;
                margin:20px;
                padding:20px;
-               transform:translate(-50%,-50%);
             }
           .signup h1{
               font-size:50px;
@@ -28,6 +24,13 @@
               transform:translate(-50%,-50%);
               border-bottom:5px solid #4caf50;
               }
+            @media screen and (min-width:500px){
+                .signup{
+                     position:absolute;
+                     left:50%;
+                     top:30%;
+                }
+            }
         </style>
     </head>
     <body>
