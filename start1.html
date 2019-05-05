@@ -65,15 +65,18 @@
             }
         </style>
     </head>
-    <body>
+    <body onload="move()">
 
-    <div class="login">   
-    <h1 id="head">Signup</h1>
+    <div class="login" id="lo">   
+    <h1 id="head">Login</h1>
     <div class="in" id="inp2"><input name="email" autosave="off" placeholder="Email"></div>
     <div class="in" id="inp3"><input name="pass" autosave="off" type="password" placeholder="Password"></div>
         <div class="btn"><button id="bb">Login</button></div>
     </div>
-        
-    
+       <script>
+         function move(){
+          document.getElementById("lo").style.opacity="2";
+          }
+    </script>
      </body>
      </html>
