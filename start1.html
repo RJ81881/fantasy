@@ -1,1 +1,79 @@
+  <!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        <link rel="stylesheet" href="index.css"/>
+        <meta name="viewport" content="width=device-width , initial-scale=1.1"/>
+        <style>
+           .login{
+               width:290px;
+               height:350px;
+               background:black;
+               padding:20px 10px;
+               border-radius:20px;
+               margin:10px 10px 40px 1px;
+            }
+          .login h1{
+              font-size:25px;
+              padding:10px 10px;
+              color:white; 
+              text-align:center;
+              border-bottom:5px solid #4caf50;
+              }
+            @media screen and (min-width:700px){
+                .login{
+                     position:absolute;
+                     left:50%;
+                     transform:translate(-50%,-50%);
+                     top:50%;
+                }
+            }
+            .in{
+                width:275px;
+                height:30px;
+                padding:2px;
+                margin-bottom:25px;
+                border-bottom:1px solid #fff;
+                background:transparent;
+            }
+            .in input{
+                 width:275px;
+                 height:40px;
+                 padding:5px;
+                 margin-bottom:6px;
+                 border:none;
+                 outline:none;
+                 color:white;
+                 background:none;
+            }
+            button{
+                width:275px;
+                height:40px;
+                padding:5px;
+                border:1px solid black;
+                border-radius:15px;
+                color:white;
+                text-align:center;
+                line-height:30px;
+                transition:transform 5s;
+                background-color:red;
+            }
+            buttton:hover , button:active{
+                
+                transform:translateY(15px);
+                border:3px solid grey;
+            }
+        </style>
+    </head>
+    <body>
 
+    <div class="login">   
+    <h1 id="head">Signup</h1>
+    <div class="in" id="inp2"><input name="email" autosave="off" placeholder="Email"></div>
+    <div class="in" id="inp3"><input name="pass" autosave="off" type="password" placeholder="Password"></div>
+        <div class="btn"><button id="bb">Login</button></div>
+    </div>
+        
+    
+     </body>
+     </html>
