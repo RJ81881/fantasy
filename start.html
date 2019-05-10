@@ -69,6 +69,12 @@
     <div class="signup">   
     <h1 id="head">Signup</h1>
     <div class="in" id="inp1"><input name="fname" autosave="off" placeholder="Username"></div>
+    <script>
+            var name= "" ;
+             name = document.getElementById("inp1");
+             if(name[0]>=1 && name[0]<=9)
+                 alert('Username must start with a letter (a-z)');
+            </script>
     <div class="in" id="inp2"><input name="email" autosave="off" placeholder="Email"></div>
     <div class="in" id="inp3"><input name="pass" autosave="off" type="password" placeholder="Password">
         <div class="btn"><button id="bb">Signup</button></div>
@@ -79,11 +85,6 @@
           }
     </script>
     
-        <script>
-            var name= "" ;
-             name = document.getElementById("inp1");
-             if(name[0]>=1 && name[0]<=9)
-                 alert('Username must start with a letter (a-z)');
-            </script>
+        
      </body>
      </html>
