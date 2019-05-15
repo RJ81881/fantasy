@@ -1,0 +1,63 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+  <title>Welcome to PLAY 11</title>
+  <meta name="viewport" content="width=device-width , initial-scale=1.1"/>
+  <link rel="stylesheet" href="index.css"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Flamenco"/>
+  </head>
+
+    <body>
+	<div class="p1" id="p">
+	  <header>
+	    <nav>
+		<div class="row">
+		  <img src="PLAY 11.png" class="logo"/>
+		 <ul>
+		  <li><a href="#">ABOUT US</a></li>
+		  <li><a href="#">POINT SYSTEM</a></li>
+		 </ul>
+		</div>
+		</nav>
+		
+		  <div class="mh">
+		  <h1><span class="anim">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspPLAY 11</span><br>YOUR TEAM YOUR GLORY</h1>
+		  <a href="#" class="btn btn1" onclick="fun(1)">SIGNUP</a>
+		  <a href="#" class="btn btn2" onclick="fun(0)">LOGIN</a>
+		  </div>
+	  </header> 
+	   </div>
+	   
+	    <div class="signup" id="s">
+		<form>
+	    <h1>SIGNUP</h1>
+		<input type="text" name="uname" autosave="off" placeholder="Username">
+        <input type="email" name="email" autosave="off" placeholder="Email">
+        <input name="pass" autosave="off" type="password" placeholder="Password">
+        <input type="submit" value="SIGNUP">
+		</form>
+	    </div>
+	   
+	    <div class="signup" id="log">
+		<form>
+	    <h1>LOGIN</h1>
+        <input type="email" name="email" autosave="off" placeholder="Email">
+        <input name="pass" autosave="off" type="password" placeholder="Password">
+        <input type="submit" value="LOGIN">
+		</form>
+	    </div>
+
+	   <script>
+	    function fun(i){
+		if(i==1){
+		document.getElementById("s").style.display="block";
+		}
+		else{
+		document.getElementById("log").style.display="block";
+		}
+		document.getElementById("p").style.display="none";
+		}
+	   </script>
+
+    </body>
+</html>
