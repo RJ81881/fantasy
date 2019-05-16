@@ -132,12 +132,13 @@ ul li{
 	  margin-left:20px;
   }
 }
-@media only screen and (max-width:400px)
+@media only screen and (max-width:400px) and (min-width:250px)
 {
   .mh{
 	  font-size:65%;
 	  position:absolute;
 	  top:60%;
+	  margin-right:10px;
 	  left:40%;
 	  }	  
   .btn{
