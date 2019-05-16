@@ -79,7 +79,7 @@ ul li{
 
 @media only screen and (max-width:989px)
 {
-  .mh h1{
+  .mh{
 	  font-size:80%;
 	  position:absolute;
 	  top:60%;
