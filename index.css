@@ -132,7 +132,7 @@ ul li{
 	  margin-left:20px;
   }
 }
-@media only screen and (max-width:400px) and (min-width:250px)
+@media only screen and (max-width:431px) and (min-width:250px)
 {
   .mh{
 	  font-size:65%;
