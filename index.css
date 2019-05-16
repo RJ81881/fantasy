@@ -92,7 +92,7 @@ ul li{
 }
 @media only screen and (max-width:841px)
 {
-  .mh h1{
+  .mh{
 	  font-size:80%;
 	  position:absolute;
 	  top:60%;
@@ -108,7 +108,7 @@ ul li{
 }
 @media only screen and (max-width:669px)
 {
-  .mh h1{
+  .mh{
 	  font-size:70%;
 	  position:absolute;
 	  top:60%;
@@ -121,7 +121,7 @@ ul li{
 }
 @media only screen and (max-width:584px)
 {
-  .mh h1{
+  .mh{
 	  font-size:60%;
 	  position:absolute;
 	  top:60%;
@@ -134,7 +134,7 @@ ul li{
 }
 @media only screen and (max-width:400px)
 {
-  .mh h1{
+  .mh{
 	  font-size:70%;
 	  position:absolute;
 	  top:60%;
