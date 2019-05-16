@@ -135,10 +135,10 @@ ul li{
 @media only screen and (max-width:400px)
 {
   .mh{
-	  font-size:70%;
+	  font-size:65%;
 	  position:absolute;
 	  top:60%;
-	  left:45%;
+	  left:40%;
 	  }	  
   .btn{
 	  margin-bottom:10px;
