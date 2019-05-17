@@ -3,7 +3,7 @@
 <body>
 
 <?php
-echo alert("Your Account Is Successfully Created...");
+echo "Your Account Is Successfully Created...";
 ?>
 
 </body>
