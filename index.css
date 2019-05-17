@@ -76,52 +76,6 @@ ul li{
 75% {color:green;}
 100% {color:#bf55ec;}
 }
-.signup{
-	width:400px;
-	height:400px;
-	margin:20px auto;
-	padding:20px;
-	background-color:black;
-	position:absolute;
-	left:50%;
-	top:50%;
-	display:none;
-	border-radius:15px;
-	transform:translate(-50%,-50%);
-	text-align:center;
-}
-.signup input[type="text"], .signup input[type="password"],.signup input[type="email"] {
-	background:none;
-	outline:none;
-	display:block;
-	border:2px solid #3498db;
-	width:190px;
-	border-radius:25px;
-	padding:13px 10px;
-	text-align:center;
-	color:white;
-	margin:20px auto;
-	transition:0.25s;
-}
-.signup input[type="text"]:focus, .signup input[type="password"]:focus,.signup input[type="email"]:focus{
-	width:280px;
-}
-.signup input[type="submit"]{
-	border:0;
-	outline:none;
-	background:none;
-	border:2px solid #2ecc71;
-	width:150px;
-	padding:13px 10px;
-	text-align:center;
-	color:white;
-	border-radius:25px;
-	transition:0.25s;
-	cursor:pointer;
-}
-.signup input[type="submit"]:hover{
-	background:#2ecc71;
-}
 
 @media only screen and (max-width:989px)
 {
@@ -178,42 +132,47 @@ ul li{
 	  margin-left:20px;
   }
 }
-@media only screen and (max-width:431px) and (min-width:250px)
-{
-  .mh{
-	  font-size:65%;
-	  position:absolute;
-	  top:60%;
-	  margin-right:10px;
-	  left:37%;
-	  }	  
-  .btn{
-	  margin-bottom:10px;
-	  margin-left:20px;
-  }
-.logo{
-	width:130px;
-	height:130px;
-	}
-	.signup{
-		width:300px;
-		height:400px;
-		margin:10px auto;
-	}
+.signup{
+	width:400px;
+	height:400px;
+	background-color:black;
+	position:absolute;
+	left:50%;
+	top:50%;
+	display:none;
+	border-radius:15px;
+	transform:translate(-50%,-50%);
+	text-align:center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.signup input[type="text"], .signup input[type="password"],.signup input[type="email"] {
+	background:none;
+	outline:none;
+	display:block;
+	border:2px solid #3498db;
+	width:190px;
+	border-radius:25px;
+	padding:13px 10px;
+	text-align:center;
+	color:white;
+	margin:20px auto;
+	transition:0.25s;
+}
+.signup input[type="text"]:focus, .signup input[type="password"]:focus,.signup input[type="email"]:focus{
+	width:280px;
+}
+.signup input[type="submit"]{
+	border:0;
+	outline:none;
+	background:none;
+	border:2px solid #2ecc71;
+	width:150px;
+	padding:13px 10px;
+	text-align:center;
+	color:white;
+	border-radius:25px;
+	transition:0.25s;
+	cursor:pointer;
+}
+.signup input[type="submit"]:hover{
+	background:#2ecc71;
+}
