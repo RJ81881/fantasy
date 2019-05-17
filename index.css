@@ -176,3 +176,36 @@ ul li{
 .signup input[type="submit"]:hover{
 	background:#2ecc71;
 }
+@media only screen and (max-width:435px) and (min-width:230px)
+{
+  .mh{
+	  font-size:60%;
+	  position:absolute;
+	  top:60%;
+	  left:37%;
+	  }	  
+  .btn{
+	  margin-bottom:10px;
+	  margin-left:20px;
+  }
+  .signup{
+	  width:300px;
+	  height:300px;
+	  padding:10px;
+	  margin:10px auto;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
