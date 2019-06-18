@@ -104,7 +104,12 @@ table tr td{ border:none;}
 table tr td{color:blue;font-weight:bold;font-size:40px;line-height:50px;}
 .mbox .counter{position:absolute;left:280px;top:500px; }
 
-
+@media only screen and (max-width:900px){
+	.mbox{
+		width:100%;
+		margin:10px;
+	}
+}
 
 
 
