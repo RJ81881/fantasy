@@ -2,8 +2,7 @@
 <html>
     <head>
         <title>Home/Sports/Cricket</title>
-        <link rel="stylesheet" href="CSS/Admin_home.css"/>
-	    <link rel="stylesheet" href="CSS/Admin_home1.css"/>
+        <link rel="stylesheet" href="index.css"/>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head> 
     <body>
@@ -19,13 +18,13 @@
 	<img src="https://t3.ftcdn.net/jpg/00/94/45/72/240_F_94457263_BtdFoRIdMnTzLoaxAaAbDMoqgqYpedsf.jpg" width="200px"
 	    height="200px" style="border:1px solid black;border-radius:50%;position:absolute;left:220px;top:100px;padding:20px;"/>      
      
-	   <p id="Name"><?php echo $_SESSION['Name']; ?></p>
+	   <p id="Name">rj</p>
        
-	   <p style="position:absolute;top:500px;left:20px;">Available Balance : <i class="fa fa-inr"></i> <?php echo $mo; ?></p>
+	   <p style="position:absolute;top:500px;left:20px;">Available Balance : <i class="fa fa-inr"></i> 0</p>
 		
 	    <div class="block" style="width:660px;position:absolute;top:600.5px;margin-top:30px;padding:20px; height:1000px;background-color:white;">
             <ul>
-        <li><a href="Admin_home.php">Home</a></li>
+        <li><a href="#">Home</a></li>
 	    <li><a href="#">How to play</a></li>
         <li><a href="#">Your Matches</a></li>
         <li><a href="#">Point System</a></li><hr>
@@ -296,15 +295,5 @@ else
 }
 }
       </script>      
- <script>
- function cl(x){
-	 if(x == 1){
-		 <?php
-		 $_SESSION['num'] = "MUM";
-		 $_SESSION['num1'] = "CSK";
-		?>
- }
- }
- </script>
     </body>
 </html>
