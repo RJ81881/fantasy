@@ -84,7 +84,7 @@ figure .img1{
       padding:3px 1px;
 }
 figcaption{ font-size:50px;font-weight:bold;color:black;margin-left:10px;padding-left:10px;} 
-.mbox p{font-size:50px;font-weight:bold;color:black;position:absolute;left:245px;top:340px;float:left;}
+.mbox p{font-size:40px;font-weight:bold;color:black;position:absolute;left:240px;top:340px;float:left;}
 figure .img2{
 	 width:150px;
       height:150px;
@@ -102,7 +102,7 @@ figure .img2{
 	top:530px; }
 table tr td{ border:none;}
 table tr td{color:blue;font-size:50px;line-height:65px;}
-.mbox .counter{position:absolute;left:245px;top:490px;}
+.mbox .counter{position:absolute;left:255px;top:490px; margin:8px auto;}
 
 
 
