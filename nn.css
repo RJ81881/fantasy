@@ -6,9 +6,7 @@ body {
 	text-transform:uppercase;
 	font-weight:lighter;
 	font-family:sans-serif;
-	background-image:url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg");
-	background-size:cover;
-	background-repeat:no-repeat;
+	background:#800eb6;
 }
 .row{
 	margin-top:0px;
