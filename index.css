@@ -67,24 +67,24 @@ body{margin:0px;padding:0px;}
 		
 
 .mbox{
-     width:920px;
+     width:925px;
      height:290px;
      border:1px solid black;
-     border-radius:30px;
-     margin:15px 15px;
+     border-radius:25px;
+     margin:15px auto;
      padding:10px;
      background-color:white;	
 }	
 figure .img1{
       width:150px;
       height:150px;
-      margin:5px;
+      margin:5px 2px;
       border:1px solid black;
       border-radius:50%;	
-      padding:5px;
+      padding:3px;
 }
-figcaption{ font-size:45px;color:black;margin-left:30px;padding-left:30px;} 
-.mbox p{font-size:45px;color:black;position:absolute;left:280px;top:310px;float:left;}
+figcaption{ font-size:50px;font-weight:bold;color:black;margin-left:20px;padding-left:20px;} 
+.mbox p{font-size:50px;font-weight:bold;color:black;position:absolute;left:260px;top:330px;float:left;}
 figure .img2{
 	 width:150px;
       height:150px;
@@ -94,15 +94,15 @@ figure .img2{
       padding:5px;
       position:absolute;
       right:50px;
-	top:340px; 
+	top:380px; 
 }
  .cap{
 	position:absolute;
       right:90px;
-	top:490px; }
+	top:510px; }
 table tr td{ border:none;}
 table tr td{color:blue;font-size:50px;line-height:65px;}
-.mbox .counter{position:absolute;left:270px;top:490px;}
+.mbox .counter{position:absolute;left:260px;top:500px;}
 
 
 
