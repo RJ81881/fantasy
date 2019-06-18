@@ -79,11 +79,13 @@ figure .img1{
       width:150px;
       height:150px;
       margin:5px 0px;
+	position:absolute;
+	left:50px;
       border:1px solid black;
       border-radius:50%;	
       padding:3px 1px;
 }
-figcaption{ font-size:50px;font-weight:bold;color:black;margin-left:20px;padding-left:20px;} 
+figcaption{ font-size:50px;font-weight:bold;color:black;margin-left:10px;padding-left:10px;} 
 .mbox p{font-size:50px;font-weight:bold;color:black;position:absolute;left:245px;top:340px;float:left;}
 figure .img2{
 	 width:150px;
