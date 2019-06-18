@@ -68,7 +68,7 @@ body{margin:0px;padding:0px;}
 
 .mbox{
      width:925px;
-     height:290px;
+     height:280px;
      border:1px solid black;
      border-radius:25px;
      margin:15px auto;
@@ -102,7 +102,7 @@ figure .img2{
 	top:560px; }
 table tr td{ border:none;}
 table tr td{color:blue;font-weight:bold;font-size:40px;line-height:50px;}
-.mbox .counter{position:absolute;left:280px;top:510px; }
+.mbox .counter{position:absolute;left:280px;top:500px; }
 
 
 
