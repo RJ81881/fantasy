@@ -78,31 +78,31 @@ body{margin:0px;padding:0px;}
 figure .img1{
       width:150px;
       height:150px;
-      margin:5px 2px;
+      margin:5px 0px;
       border:1px solid black;
       border-radius:50%;	
-      padding:3px;
+      padding:3px 1px;
 }
 figcaption{ font-size:50px;font-weight:bold;color:black;margin-left:20px;padding-left:20px;} 
-.mbox p{font-size:50px;font-weight:bold;color:black;position:absolute;left:260px;top:330px;float:left;}
+.mbox p{font-size:50px;font-weight:bold;color:black;position:absolute;left:245px;top:340px;float:left;}
 figure .img2{
 	 width:150px;
       height:150px;
-      margin:5px;
+      margin:5px 2px 5px 5px ;
       border:1px solid black;
       border-radius:50%;	
       padding:5px;
       position:absolute;
-      right:50px;
+      right:40px;
 	top:380px; 
 }
  .cap{
 	position:absolute;
-      right:90px;
-	top:510px; }
+      right:80px;
+	top:530px; }
 table tr td{ border:none;}
 table tr td{color:blue;font-size:50px;line-height:65px;}
-.mbox .counter{position:absolute;left:260px;top:500px;}
+.mbox .counter{position:absolute;left:245px;top:490px;}
 
 
 
