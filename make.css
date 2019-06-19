@@ -209,6 +209,8 @@ line-height:80px;
 .pick{
      width:104.6%;
      height:80px;
+     font-size:25px;
+     font-weight:bold;
      border:1px solid black;
      padding:10px 40px;
      background:rgb(66,137,185);
