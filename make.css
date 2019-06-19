@@ -26,7 +26,7 @@ body{margin:0px;padding:0px;}
              width:60px;
              height:50px;
              margin:0px;
-             padding:20px 15px;
+             padding:25px 15px;
             }
          .menu #sidebar ul li a , .block ul li a{
             color:black;
@@ -121,44 +121,51 @@ ul li{
 
 .make{ 
 width:100%; 
-height:480px;
+height:600px;
 background-color:#800eb6;
+padding:25px;
 margin:0px;
 } 
 .make h1{
-font-size:90px;
+font-size:70px;
 text-align:center;
-padding:10px 5px 0px 25px;
+padding:20px 5px 10px 25px;
 margin:0px 10px 5px 10px;
 color:white;
 line-height:80px;
 } 
 .make p{
-	font-size:45px;
+	font-size:40px;
 	padding:15px;
-	margin:10px;
+	margin:10px 20px;
+	font-weight:bold;
 }
 .te {
-	font-size:22px;
-	margin: 10px 5px 10px 30px;
+	font-size:40px;
+	margin: 10px 5px 10px 50px;
 	border:1px solid #ee833b;
-	width:200px;
-	padding:10px;
-	border-radius:15px;
+	width:400px;
+	padding:20px;
+	border-radius:20px;
 	background:black;
+}
+.te span{
+	font-size:40px;
+	padding:20px;
 }
 .cnt{
 	position:absolute;
-	left:200px;
-	margin:0px;
-	padding:1px;
+	left:140px;
+	margin:0px auto;
+	padding:10px;
 }
 .cnt span{
-	width:70px;
-	height:70px;
+	width:100px;
+	height:100px;
 	background:#33e320;
 	padding:20px;
 	border-right:1px solid black;
 	border-radius:20px;
+	font-weight:bold;
 }
 
