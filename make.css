@@ -182,12 +182,10 @@ line-height:80px;
 		
 		.nav a{
 			font-size:50px;
-			display:block;
+			display:inline-block;
+			height:150px;
+			width:210px;
 			padding:20px 21.5px; 20px 20px;
 			text-align:center;
-			height:150px;
-			width:203px;
-			float:left;
-			
 			border:1px solid #800eb6;
 		}
