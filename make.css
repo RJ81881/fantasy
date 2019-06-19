@@ -182,10 +182,10 @@ line-height:80px;
           } */
 		
 		.nav a{
-			font-size:50px;
+			font-size:50px;font-weight:bold;line-height:150px;
 			display:block;
 			height:150px;
-			width:205px;
+			width:220px;
                         float:left;background:white;
 			padding:20px;
 			text-align:center;
