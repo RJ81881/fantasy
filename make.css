@@ -127,9 +127,9 @@ padding:25px;
 margin:0px;
 } 
 .make h1{
-font-size:70px;
+font-size:80px;
 text-align:center;
-padding:20px 5px 10px 25px;
+padding:15px 5px 10px 25px;
 margin:0px 10px 5px 10px;
 color:white;
 line-height:80px;
@@ -144,7 +144,7 @@ line-height:80px;
 	font-size:40px;
 	margin: 10px 5px 10px 50px;
 	border:1px solid #ee833b;
-	width:400px;
+	width:450px;
 	padding:20px;
 	border-radius:20px;
 	background:black;
@@ -152,10 +152,11 @@ line-height:80px;
 .te span{
 	font-size:40px;
 	padding:20px;
+	font-weight:bold;
 }
 .cnt{
 	position:absolute;
-	left:140px;
+	left:150px;
 	margin:0px auto;
 	padding:10px;
 }
@@ -164,7 +165,7 @@ line-height:80px;
 	height:100px;
 	background:#33e320;
 	padding:20px;
-	border-right:1px solid black;
+	font-size:40px;
 	border-radius:20px;
 	font-weight:bold;
 }
