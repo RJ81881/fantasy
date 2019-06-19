@@ -4,46 +4,51 @@ body{
 	background-image:none;
 	text-transform:lowercase;
 }
-.make{ 
-width:100%; 
-height:480px;
-background-color:#800eb6;
-margin:0px;
-} 
-.make h1{
-font-size:90px;
-text-align:center;
-padding:10px 5px 0px 25px;
-margin:0px 10px 5px 10px;
-color:white;
-line-height:80px;
-} 
-.make p{
-	font-size:45px;
-	padding:15px;
-	margin:10px;
-}
-.te {
-	font-size:22px;
-	margin: 10px 5px 10px 30px;
-	border:1px solid #ee833b;
-	width:200px;
-	padding:10px;
-	border-radius:15px;
-	background:black;
-}
-.cnt{
-	position:absolute;
-	left:200px;
-	margin:0px;
-	padding:1px;
-}
-.cnt span{
-	width:70px;
-	height:70px;
-	background:#33e320;
-	padding:20px;
-	border-right:1px solid black;
-	border-radius:20px;
-}
-
+.menu #sidebar{
+           position:absolute;
+           width:700px;
+           height:2000px;
+           left:-700px;
+           opacity:1.0;
+           background-color:black;
+       }     
+        .menu #sidebar ul li , .block ul li{
+             color:black;
+		 
+             list-style-type:none;
+             padding:30px 20px;
+			 font-size:45px;
+         }  
+        .menu #sidebar .toggle{
+             position:absolute;
+             left:700px;
+             top:0px;
+             width:60px;
+             height:50px;
+             margin:0px;
+             padding:20px 15px;
+            }
+         .menu #sidebar ul li a , .block ul li a{
+            color:black;
+		  
+		  line-height:60px;
+			font-size:45px;
+		  line-height:60px;
+            text-decoration:none;
+            padding:30px 20px;
+        }    
+        .menu #sidebar .toggle span{
+             display:block;
+             width:65px;
+             height:7px;
+             background-color:white;
+             margin:13px 10px;
+         }  
+       .menu #sidebar.active 
+        {
+              left:0px;
+        }
+      p{
+	  font-size:40px;
+	    padding:15px;
+	    }
