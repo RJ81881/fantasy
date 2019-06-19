@@ -142,7 +142,7 @@ line-height:80px;
 }
 .te {
 	font-size:40px;
-	margin: 10px 5px 10px 50px;
+	margin: 10px auto 10px auto;
 	border:1px solid #ee833b;
 	width:470px;
 	padding:20px;
