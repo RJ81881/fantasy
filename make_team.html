@@ -2,14 +2,13 @@
 <html>
     <head>
         <title>Home/Sports/Cricket</title>
-        
-	   <link rel="stylesheet" href="make.css"/>
-	
+        <link rel="stylesheet" href="CSS/nn.css"/>
+	    <link rel="stylesheet" href="CSS/index.css"/>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head> 
+    </head>
+	
     <body>
-        
-	 <div class="menu">   
+<div class="menu">   
 	<div id="sidebar">
         <div class="toggle" onclick="gg()" >
              <span></span> 
@@ -20,9 +19,9 @@
 	<img src="https://t3.ftcdn.net/jpg/00/94/45/72/240_F_94457263_BtdFoRIdMnTzLoaxAaAbDMoqgqYpedsf.jpg" width="200px"
 	    height="200px" style="border:1px solid black;border-radius:50%;position:absolute;left:220px;top:100px;padding:20px;"/>      
      
-	   <p id="Name" style="font-size:45px;font-weight:bold;">rj</p>
+	   <p id="Name" style="font-size:45px;font-weight:bold;"><?php echo $_SESSION['Name']; ?></p>
        
-	   <p style="position:absolute;top:500px;left:20px;font-size:45px;font-weight:bold;">Available Balance : <i class="fa fa-inr"></i> 0</p>
+	   <p style="position:absolute;top:500px;left:20px;font-size:45px;font-weight:bold;">Available Balance : <i class="fa fa-inr"></i><?php echo $mo; ?></p>
 		
 	    <div class="block" style="width:660px;position:absolute;top:600.5px;margin-top:30px;padding:20px; height:1000px;background-color:white;">
             <ul>
@@ -37,4 +36,26 @@
 			 
 		
 </div>
-	</div>  
+	</div> 
+	  
+	      <script>
+    var i=0;
+    function gg()
+{  
+document.getElementById("sidebar").classList.toggle('active');
+i++;
+  ff(i);
+}
+function ff(i){
+   if((i%2)!=0) 
+   {  
+      document.getElementById("zz").style.display="none";
+   }
+else
+{
+   document.getElementById("zz").style.display="block"; 
+}
+}
+      </script>
+	      </body>
+</html>
