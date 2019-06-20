@@ -194,7 +194,7 @@ line-height:80px;
 			text-align:center;
 			border:1px solid #800eb6;
 		}
-.nav a:hover{ background-color:#800eb6; }
+.nav a:hover{ background-color:rgb(66,137,185); }
 
 /* pick */
 .pickhead{ 
