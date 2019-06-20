@@ -74,7 +74,7 @@
 	    
 	          <div class="pickhead" id="pi">
 		  <div class="pick" id="pick1">Pick 1 Wicket Keeper</div>
-		  <div class="p1" id="w1"><img src="yt.com"><span id="W1">Quinton De Kock | MI</span><i class="fa fa-plus-circle" id="plu1" onclick="select(this,"W1")"></i></div>
+		  <div class="p1" id="w1"><img src="yt.com"><span id="W1">Quinton De Kock | MI</span><i class="fa fa-plus-circle" id="plu1" onclick="select(this,1)"></i></div>
 		<div class="p1" id="w2"><img src="yt.com"><span id="W2">Aditya Tare | MI</span><i class="fa fa-plus-circle" id="plu2" onclick="select(this,2)"></i></div>
 		<div class="p1" id="w3"><img src="yt.com"><span id="W3">Ishaan Kishan | MI</span><i class="fa fa-plus-circle" id="plu3"></i></div>
 		<div class="p1" id="w4"><img src="yt.com"><span id="W4">M S Dhoni | CSK</span><i class="fa fa-plus-circle" id="plu4"></i></div>
@@ -116,11 +116,18 @@
 	    </div>
 	    
 	    <script>
-	   var p="W1",i=0;
-            function select(x,y,z){
+	   var i=0,p=0;
+            function select(x,y){
 		    x.classList.toggle("fa-minus-circle");
-		   if(y == p){
-			   document.getElementById('wk').innerHTML = ++i;
+		   if((y >= 1) && (y<=5)){
+			   if(i==0){
+			   document.getElementById('wk').innerHTML = ++p;
+			   i=1; 
+			   }
+			   else if(i==1){
+			document.getElementById('wk').innerHTML = --p;
+			i=0;  
+			 }
 		   }
 		    }
         </script>
