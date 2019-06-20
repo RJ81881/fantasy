@@ -166,7 +166,7 @@ line-height:80px;
 .cnt span{
 	width:100px;
 	height:100px;
-	background:#33e320;
+	background:white;  /* #33e320 */
 	padding:20px;
 	font-size:40px;
 	border-radius:20px;
