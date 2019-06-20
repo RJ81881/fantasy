@@ -237,7 +237,11 @@ line-height:80px;
    margin:auto 40px auto 40px;
    padding-left:40px;
 }
- /* .p1 span{ position:absolute;left:150px;} */
+.p1 i{
+  font-size:40px;
+  color:green;
+  float:right;
+}
 	
 	
 
