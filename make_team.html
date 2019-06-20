@@ -119,19 +119,15 @@
 	   var a=[0,0,0,0,0];
             function select(x,y){
 		    if(a[y-1]==0){
-		    var cnt=0,i,pt=0,pt1=0;
+		    var cnt=0,i;
 		    x.classList.toggle("fa-minus-circle");
 		    a[y-1]=1;
-			   pt = point(y);
-			   pt1 = pointe(y);
 		    for(i=0;i<5;i++){
 			   if(a[i]==1){ 
 				   cnt=cnt+1;
 				   }
 			    }
 			   document.getElementById('wk').innerHTML = cnt;
-			   document.getElementById('c1').innerHTML = pt;
-			   document.getElementById('c2').innerHTML = pt1;
 			    }
 		    else{
 			  var c=0;
@@ -146,23 +142,7 @@
 				  }
 		    }
         </script>
-	    <script>
-		    var c=0;
-	    function point(y){
-		  if((y%2)!=0){
-			 c=c+1;
-			 return c;
-			}
-	    </script>
-	     
-	    <script>
-		    var c=0;
-	    function pointe(y){
-		  if((y%2)==0){
-			 c=c+1;
-			 return c;
-			}
-	    </script>
+	    
 	    
 	    <script>
     var i=0;
