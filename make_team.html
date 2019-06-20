@@ -116,12 +116,13 @@
 	    </div>
 	    
 	    <script>
-	   var i=0,p=0,r=0;
+	   var i=0,p=1,r=0;
             function select(x,y){
 		    if(r==0){
 		    x.classList.toggle("fa-minus-circle");
 		   if((y >= 1) && (y<=5)){
-			   document.getElementById('wk').innerHTML = ++p;
+			   document.getElementById('wk').innerHTML = p;
+			    p=p+1;
 			    r=1;
 			   }
 			 }
