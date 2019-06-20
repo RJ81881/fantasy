@@ -192,7 +192,7 @@ line-height:80px;
                         background:white;
 			padding:20px;
 			text-align:center;
-			border:1px solid #800eb6;
+			
 		}
 .nav a:hover{ background-color:rgb(66,137,185); }
 
@@ -203,7 +203,6 @@ line-height:80px;
 	font-size:20px;
 	font-weight:normal;
 	color:black;
-	border:1px solid black;
 	overflow:scroll;
 	text-transform:capitalize;
  }
@@ -214,7 +213,6 @@ line-height:80px;
      line-height:100px;
      text-align:center;
      font-weight:bold;
-     border:1px solid black;
      padding:20px;
      background:rgb(66,137,185);
      color:white;
@@ -225,7 +223,6 @@ line-height:80px;
      font-size:40px;
      line-height:100px;
      font-weight:normal;
-     border:1px solid black;
      padding:20px 45px;
      background:white;
      color:black; 
