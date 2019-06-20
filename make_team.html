@@ -115,11 +115,9 @@
 	    </div>
 	    
 	    <script>
-	    function select(x){
-		    if(x == 1){
-		$(#plu1).find('i').toggleClass('fa-plus-circle fa-minus-circle') 
-		}
-	    }	      
+     $('#plu1').click(function(){
+    $(this).find('i').toggleClass('fa-plus-circle fa-minus-circle')
+}); 
 	    </script>
 	      <script>
     var i=0;
