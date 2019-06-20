@@ -73,7 +73,7 @@
 	    
 	          <div class="pickhead" id="pi">
 		  <div class="pick" id="pick1">Pick 1 Wicket Keeper</div>
-		  <div class="p1" id="w1"><img src="yt.com"><span id="W1">Quinton De Kock | MI</span><i class="fa fa-plus-circle" onclick="select(1)"></i></div>
+		  <div class="p1" id="w1"><img src="yt.com"><span id="W1">Quinton De Kock | MI</span><i class="fa fa-plus-circle"></i></div>
 		<div class="p1" id="w2"><img src="yt.com"><span id="W2">Aditya Tare | MI</span><i class="fa fa-plus-circle" id="plu2"></i></div>
 		<div class="p1" id="w3"><img src="yt.com"><span id="W3">Ishaan Kishan | MI</span><i class="fa fa-plus-circle" id="plu3"></i></div>
 		<div class="p1" id="w4"><img src="yt.com"><span id="W4">M S Dhoni | CSK</span><i class="fa fa-plus-circle" id="plu4"></i></div>
@@ -115,8 +115,12 @@
 	    </div>
 	    
 	    <script>
-	  
-	    </script>
+            $(document).ready(function () {
+                $('i').click(function () {
+                    $(this).toggleClass('fa-plus-circle fa-minus-circle');
+                });
+            });
+</script>
 	      <script>
     var i=0;
     function gg()
