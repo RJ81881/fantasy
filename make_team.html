@@ -128,6 +128,7 @@
 				   }
 			    }
 			   document.getElementById('wk').innerHTML = cnt;
+			   teamcount(y);
 			    }
 		    else{
 			  var c=0;
@@ -142,6 +143,15 @@
 				  }
 		    }
         </script>
+	    <script>    
+		  var team=0;
+	function teamcount(x){
+		if(x%2!=0){ 
+		team=team+1;
+		document.getElementById('c1').innerHTML = team; 
+		} 
+	}
+	    </script>
 	    
 	    
 	    <script>
