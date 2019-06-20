@@ -116,25 +116,18 @@
 	    </div>
 	    
 	    <script>
-	   var i=0,p=1,r=0;
+	   var a=[0,0,0,0,0];
             function select(x,y){
-		    if(r==0){
+		    var cnt=0;
 		    x.classList.toggle("fa-minus-circle");
-		   if((y >= 1) && (y<=5)){
-			   document.getElementById('wk').innerHTML = p;
-			    p=p+1;
-			    
+		    a[y-1]=y;
+		    for(i=0;i<5;i++){
+			   if(a[i]==1){ 
+				   cnt=cnt+1;
+				   }
+			    }
+			   document.getElementById('wk').innerHTML = cnt;
 			   }
-			 }
-		    else if(r==1){
-			    x.classList.toggle("fa-plus-circle");
-			   if(y>=1 && y<=5){
-			document.getElementById('wk').innerHTML = --p;
-				 r=0; }
-		
-			 }
-		   }
-		    
         </script>
 	      <script>
     var i=0;
