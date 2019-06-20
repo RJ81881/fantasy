@@ -240,10 +240,9 @@ line-height:80px;
 .p1 i{
   font-size:40px;
   color:green;
-  float:right;
-  margin-right:60px;
-  margin-top:auto;
-  margin-bottom:auto;
+  position:absolute;
+  left:200px;
+  margin:auto 40px auto 40px;
 }
 	
 	
