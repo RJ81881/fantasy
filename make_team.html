@@ -147,14 +147,14 @@
 	    
 	    
 	    <script>
-	   var a=[0,0,0,0,0,0,0,0,0,0,0];
+	   var b=[0,0,0,0,0,0,0,0,0,0,0];
             function selectbat(x,y){
-		    if(a[y-1]==0){
+		    if(b[y-1]==0){
 		    var cnt=0,i;
 		    x.classList.toggle("fa-minus-circle");
-		    a[y-1]=1;
+		    b[y-1]=1;
 		    for(i=0;i<11;i++){
-			   if(a[i]==1){ 
+			   if(b[i]==1){ 
 				   cnt=cnt+1;
 				   }
 			    }
@@ -164,9 +164,9 @@
 		    else{
 			  var c=0;
 			  x.classList.toggle("fa-minus-circle");
-			  a[y-1]=0;
+			  b[y-1]=0;
 			  for(i=0;i<11;i++){
-				  if(a[i]==1){
+				  if(b[i]==1){
 					 c=c+1;
 					  }
 				  }
