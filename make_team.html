@@ -6,7 +6,7 @@
 	    <link rel="stylesheet" href="make.css"/>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    <script>
-	   var team11 = [0,0,0,0,0,0,0,0,0,0,0];
+	   var team11 = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
 	   </script>
 	</head>
 	
@@ -276,19 +276,19 @@
 		    function teamdata(t,u){
 		var i;
 		if(u==1){
-		    for(i=0;i<11;i++){
+		    for(i=0;i<36;i++){
 				   if(team11[i]==0){
 					   team11[i]=t;
-					   i=20;
+					   i=40;
 					   }
 			    } 
 			document.getElementById('plr').innerHTML=team11;
 			    }
 		else{
-			for(i=0;i<11;i++){
+			for(i=0;i<36;i++){
 				   if(team11[i]==t){
 					   team11[i]=0;
-					   i=20;
+					   i=40;
 					   }
 			    }
 			document.getElementById('plr').innerHTML=team11;
