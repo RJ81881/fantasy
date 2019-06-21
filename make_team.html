@@ -5,7 +5,9 @@
      
 	    <link rel="stylesheet" href="make.css"/>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   
+   <script>
+	   var team11 = [0,0,0,0,0,0,0,0,0,0,0];
+	   </script>
 	</head>
 	
     <body>
@@ -129,6 +131,7 @@
 			    }
 			   document.getElementById('wk').innerHTML = cnt;
 			   teamcount(y,1);
+			   teamdata(y,1);
 			    }
 		    else{
 			  var c=0;
@@ -141,6 +144,7 @@
 				  }
 				  document.getElementById('wk').innerHTML = c
 			          teamcount(y,0);
+			          teamdata(y,0);
 				  }
 		    }
         </script>
@@ -160,6 +164,7 @@
 			    }
 			   document.getElementById('bat').innerHTML = cnt;
 			   teamcount(y,1);
+			   teamdata(y,1);
 			    }
 		    else{
 			  var c=0;
@@ -172,6 +177,7 @@
 				  }
 				  document.getElementById('bat').innerHTML = c;
 			          teamcount(y,0);
+			          teamdata(y,0);
 				  }
 		    }
         </script>
@@ -190,6 +196,7 @@
 			    }
 			   document.getElementById('bowl').innerHTML = cnt;
 			   teamcount(y,1);
+			   teamdata(y,1);
 			    }
 		    else{
 			  var c=0;
@@ -202,6 +209,7 @@
 				  }
 				  document.getElementById('bowl').innerHTML = c;
 			          teamcount(y,0);
+			          teamdata(y,0);
 				  }
 		    }
         </script>
@@ -221,6 +229,7 @@
 			    }
 			   document.getElementById('ar').innerHTML = cnt;
 			   teamcount(y,1);
+			   teamdata(y,1);
 			    }
 		    else{
 			  var c=0;
@@ -233,6 +242,7 @@
 				  }
 				  document.getElementById('ar').innerHTML = c;
 			          teamcount(y,0);
+			          teamdata(y,0);
 				  }
 		    }
         </script>
@@ -262,7 +272,25 @@
 			
 	    </script>
 	    
-	    
+	    <script>
+		    function teamdata(t,u){
+		var i;
+		if(u==1){
+		    for(i=0;i<11;i++){
+				   if(team11[i]==0){
+					   team11[i]=t;
+					   }
+			    } 
+			    }
+		else{
+			for(i=0;i<11;i++){
+				   if(team11[i]==t){
+					   team11[i]=0;
+					   }
+			    } 
+		}
+		}
+	    </script>
 	    <script>
     var i=0;
     function gg()
