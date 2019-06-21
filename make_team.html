@@ -159,7 +159,7 @@
 				   }
 			    }
 			   document.getElementById('bat').innerHTML = cnt;
-			   teamcount(y);
+			   teamcount(y,1);
 			    }
 		    else{
 			  var c=0;
@@ -170,7 +170,8 @@
 					 c=c+1;
 					  }
 				  }
-				  document.getElementById('bat').innerHTML = c
+				  document.getElementById('bat').innerHTML = c;
+			          teamcount(y,0);
 				  }
 		    }
         </script>
@@ -188,7 +189,7 @@
 				   }
 			    }
 			   document.getElementById('bowl').innerHTML = cnt;
-			   teamcount(y);
+			   teamcount(y,1);
 			    }
 		    else{
 			  var c=0;
@@ -199,7 +200,8 @@
 					 c=c+1;
 					  }
 				  }
-				  document.getElementById('bowl').innerHTML = c
+				  document.getElementById('bowl').innerHTML = c;
+			          teamcount(y,0);
 				  }
 		    }
         </script>
@@ -218,7 +220,7 @@
 				   }
 			    }
 			   document.getElementById('ar').innerHTML = cnt;
-			   teamcount(y);
+			   teamcount(y,1);
 			    }
 		    else{
 			  var c=0;
@@ -229,7 +231,8 @@
 					 c=c+1;
 					  }
 				  }
-				  document.getElementById('ar').innerHTML = c
+				  document.getElementById('ar').innerHTML = c;
+			          teamcount(y,0);
 				  }
 		    }
         </script>
