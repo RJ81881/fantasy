@@ -309,6 +309,18 @@
 		} 
 		if(c>11){ 
 		alert('Select Only 11 Players In Your Team'); 
+		} 
+		else if(((document.getElementById('wk').value)>1) || ((document.getElementById('wk').value)==0) ){ 
+		alert('Select  1 Wicket Keeper In Your Team'); 
+		}
+		else if(((document.getElementById('bat').value)<3) || ((document.getElementById('bat').value)>5)){ 
+		alert('Select Min:3 and Max:5 Batsmen In Your Team'); 
+		}
+		else if(((document.getElementById('bowl').value)<3)){ 
+		alert('Select Min:3 Bowlers In Your Team'); 
+		}
+		else if(((document.getElementById('ar').value)<3)){ 
+		alert('Select Min:3 All-Rounders In Your Team'); 
 		}
 	}
             </script>
