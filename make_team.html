@@ -116,7 +116,7 @@
 		<div class="p1" id="ar6"><img src="yt.com"><span id="Ar6" class="csk">Dwayne Bravo | CSK</span><i class="fa fa-plus-circle" id="plu35" onclick="selectar(this,6)"></i></div>
 		<div class="p1" id="ar7"><img src="yt.com"><span id="Ar7" class="mi">Mitchell Santner | CSK</span><i class="fa fa-plus-circle" id="plu36" onclick="selectar(this,7)"></i></div>
 	    </div>
-	    
+	    <p id="plr"></p>
 	    <script>
 	   var a=[0,0,0,0,0];
             function selectwk(x,y){
@@ -281,6 +281,7 @@
 					   team11[i]=t;
 					   }
 			    } 
+			document.getElementById('plr').innerHTML=team11;
 			    }
 		else{
 			for(i=0;i<11;i++){
