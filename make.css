@@ -238,7 +238,7 @@ line-height:80px;
    width:90px;
    height:90px;
    border:1px solid black;
-   border-radius:50%; 
+   border-radius:50%;
    margin:auto 40px auto 40px;
    padding-left:40px;
 }
@@ -258,13 +258,13 @@ background:#800eb6;
 }
 .finish button{
 width:600px;
-height:160px;
+height:170px;
 font-size:45px;
 background:rgb(66,137,185);
 color:white;
 font-weight:bold;
 text-align:center;
 border:1px solid black;
-border-radius:30px;
-margin:15px 150px;
+border-radius:35px;
+margin:15px 300px;
 }
