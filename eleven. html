@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home/Sports/Cricket</title>
+     
+	    <link rel="stylesheet" href="make.css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <script>
+	   var team11 = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
+	   </script>
+	</head>
+	
+    <body>
+<div class="menu">   
+	<div id="sidebar">
+        <div class="toggle" onclick="gg()" >
+             <span></span> 
+             <span></span>
+             <span></span>
+          </div>
+    
+	<img src="https://t3.ftcdn.net/jpg/00/94/45/72/240_F_94457263_BtdFoRIdMnTzLoaxAaAbDMoqgqYpedsf.jpg" width="200px"
+	    height="200px" style="border:1px solid black;border-radius:50%;position:absolute;left:220px;top:100px;padding:20px;"/>      
+     
+	   <p id="Name" style="font-size:45px;font-weight:bold;"><?php echo $_SESSION['Name']; ?></p>
+       
+	   <p style="position:absolute;top:500px;left:20px;font-size:45px;font-weight:bold;">Available Balance : <i class="fa fa-inr"></i><?php echo $mo; ?></p>
+		
+	    <div class="block" style="width:660px;position:absolute;top:600.5px;margin-top:30px;padding:20px; height:1000px;background-color:white;">
+            <ul>
+        <li><a href="#" style="font-size:45px;font-weight:bold;">Home</a></li>
+	    <li><a href="#" style="font-size:45px;font-weight:bold;">How to play</a></li>
+        <li><a href="#" style="font-size:45px;font-weight:bold;">Your Matches</a></li>
+        <li><a href="#" style="font-size:45px;font-weight:bold;">Point System</a></li><hr>
+        <li><a href="#" style="font-size:45px;font-weight:bold;">About Us</a></li>
+	    <li><a href="#" style="font-size:45px;font-weight:bold;">Terms and conditions</a></li>
+	</ul></div>
+		    
+			 
+		
+</div>
+	</div> 
+	  
+	        <div class="make" id="zz">
+	  <h1>PLAY 11</h1><br>
+	  <p>Create Team</p>
+	  <br>
+	  <div class="te">
+	  <span id="t1">MUM</span>&nbsp <span id="c1">0</span>&nbsp :&nbsp <span id="t2">CSK</span>&nbsp <span id="c2">0</span>
+	     </div><br><br><br>
+       </div>
+       </body>
+       </html>
