@@ -255,5 +255,8 @@ width:104.64%;
 height:200px;
 border:1px solid black;
 background:#800eb6;
+position:sticky;
+top:1;
+bottom:0;
 }
 
