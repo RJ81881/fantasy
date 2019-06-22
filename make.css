@@ -257,14 +257,14 @@ border:1px solid black;
 background:#800eb6;
 }
 .finish button{
-width:500px;
-height:180px;
+width:600px;
+height:160px;
 font-size:45px;
 background:rgb(66,137,185);
 color:white;
 font-weight:bold;
 text-align:center;
 border:1px solid black;
-border-radius:20px;
+border-radius:30px;
 margin:15px 150px;
 }
