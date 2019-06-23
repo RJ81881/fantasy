@@ -143,3 +143,17 @@ line-height:80px;
 	margin:10px 20px;
 	font-weight:bold;
 }
+.te {
+	font-size:40px;
+	margin: 10px auto 10px auto;
+	border:1px solid #ee833b;
+	width:470px;
+	padding:20px;
+	border-radius:20px;
+	background:black;
+}
+.te span{
+	font-size:40px;
+	padding:20px;
+	font-weight:bold;
+}
