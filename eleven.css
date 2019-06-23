@@ -179,9 +179,9 @@ border:2px solid grey
      color:white;
 }
 .preview div a{
-color:white;
+color:grey;
 font-size:45px;
-padding:20px;
+padding:5px 20px;
 line-height:100px;
 border:1px solid white;
 background:white;
