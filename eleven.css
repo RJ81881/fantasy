@@ -1,0 +1,145 @@
+body{margin:0px;padding:0px;background:#800eb6;}
+
+*{
+ margin:0px;padding:0px;
+}
+	
+
+
+
+.menu #sidebar{
+           position:absolute;
+           width:700px;
+           height:2000px;
+           left:-700px;
+           opacity:1.0;
+           background-color:black;
+       }     
+        .menu #sidebar ul li , .block ul li{
+             color:black;
+		 
+             list-style-type:none;
+             padding:30px 20px;
+			 font-size:45px;
+         }  
+        .menu #sidebar .toggle{
+             position:absolute;
+             left:700px;
+             top:0px;
+             width:60px;
+             height:50px;
+             margin:0px;
+             padding:25px 15px;
+            }
+         .menu #sidebar ul li a , .block ul li a{
+            color:black;
+		  
+		  line-height:60px;
+			font-size:45px;
+		  line-height:60px;
+            text-decoration:none;
+            padding:30px 20px;
+        }    
+        .menu #sidebar .toggle span{
+             display:block;
+             width:65px;
+             height:7px;
+             background-color:white;
+             margin:13px 10px;
+         }  
+       .menu #sidebar.active 
+        {
+              left:0px;
+        }
+      p{
+	  font-size:40px;
+	    padding:15px;
+	    }
+  #Name {
+	   position:absolute;
+	   left:270px;
+	   top:370px;
+	   } 
+ #Gmail{
+	 position:absolute;
+	   left:270px;
+	   top:430px;
+       } 
+body {
+    padding:0px;
+	margin:0px;
+	font-size:20px;
+	color:white;
+	text-transform:uppercase;
+	font-weight:lighter;
+	font-family:sans-serif;
+	background:rgb(66,137,185);
+}
+.row{
+	margin-top:0px;
+}
+.row li a:hover{
+	border-bottom:2px solid #3498db;
+}
+.logo{
+	width:200px;
+	height:200px;
+	border-radius:40%;
+	padding:20px 20px;
+}
+ul{
+   list-style-type:none;
+   float:right;
+   margin:20px 60px;
+}
+ul li{
+	display:inline-block;
+	padding:20px 20px;
+	margin-bottom:5px;
+}
+ a{
+	text-decoration:none;
+	font-size:90%;
+	color:#bf55ec;
+}
+
+@media only screen and (max-width:841px)
+{
+  .mh{
+	  font-size:80%;
+	  position:absolute;
+	  top:60%;
+	  left:37%;
+	  }	  
+  .btn{
+	  margin-bottom:10px;
+	  margin-left:20px;
+  }
+    .row ul{
+	  display:none;
+  }
+}
+
+
+
+.make{ 
+width:100%; 
+height:600px;
+background-color:#800eb6;
+padding:25px;
+margin:0px;
+} 
+.make h1{
+font-size:80px;
+text-align:center;
+padding:10px 5px 10px 25px;
+margin:0px 10px 5px 10px;
+color:white;
+line-height:80px;
+} 
+.make p{
+	font-size:40px;
+	padding:15px;
+	margin:10px 20px;
+	font-weight:bold;
+}
