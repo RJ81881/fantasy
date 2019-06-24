@@ -51,17 +51,17 @@
        </div> 
 	   
 <div class="preview">
-<div>1. Rohit Sharma <span id="1" onclick="captain(1)">C&nbsp</span><span onclick="vice_c(1)">VC</span></div>
-<div>2. Rohit Sharma <span id="2" onclick="captain(2)">C&nbsp</span><span onclick="vice_c(2)">VC</span></div>
-<div>3. Rohit Sharma <span id="3" onclick="captain(3)">C&nbsp</span><span onclick="vice_c(3)">VC</span></div>
-<div>4. Rohit Sharma <span id="4" onclick="captain(4)">C&nbsp</span><span onclick="vice_c(4)">VC</span></div>
-<div>5. Rohit Sharma <span id="5" onclick="captain(5)">C&nbsp</span><span onclick="vice_c(5)">VC</span></div>
-<div>6. Rohit Sharma <span id="6" onclick="captain(6)">C&nbsp</span><span onclick="vice_c(6)">VC</span></div>
-<div>7. Rohit Sharma <span id="7" onclick="captain(7)">C&nbsp</span><span onclick="vice_c(7)">VC</span></div>
-<div>8. Rohit Sharma <span id="8" onclick="captain(8)">C&nbsp</span><span onclick="vice_c(8)">VC</span></div>
-<div>9. Rohit Sharma <span id="9" onclick="captain(9)">C&nbsp</span><span onclick="vice_c(9)">VC</span></div>	    
-<div>10.Rohit Sharma <span id="10" onclick="captain(10)">C&nbsp</span><span onclick="vice_c(10)">VC</span></div>	    
-<div>11.Rohit Sharma <span id="11" onclick="captain(11)">C&nbsp</span><span onclick="vice_c(11)">VC</span></div>
+<div>1. Rohit Sharma <span id="1" onclick="captain(1)">C&nbsp</span><span id="11" onclick="vice_c(1)">VC</span></div>
+<div>2. Rohit Sharma <span id="2" onclick="captain(2)">C&nbsp</span><span id="12" onclick="vice_c(2)">VC</span></div>
+<div>3. Rohit Sharma <span id="3" onclick="captain(3)">C&nbsp</span><span id="13" onclick="vice_c(3)">VC</span></div>
+<div>4. Rohit Sharma <span id="4" onclick="captain(4)">C&nbsp</span><span id="14" onclick="vice_c(4)">VC</span></div>
+<div>5. Rohit Sharma <span id="5" onclick="captain(5)">C&nbsp</span><span id="15" onclick="vice_c(5)">VC</span></div>
+<div>6. Rohit Sharma <span id="6" onclick="captain(6)">C&nbsp</span><span id="16" onclick="vice_c(6)">VC</span></div>
+<div>7. Rohit Sharma <span id="7" onclick="captain(7)">C&nbsp</span><span id="17" onclick="vice_c(7)">VC</span></div>
+<div>8. Rohit Sharma <span id="8" onclick="captain(8)">C&nbsp</span><span id="18" onclick="vice_c(8)">VC</span></div>
+<div>9. Rohit Sharma <span id="9" onclick="captain(9)">C&nbsp</span><span id="19" onclick="vice_c(9)">VC</span></div>	    
+<div>10.Rohit Sharma <span id="10" onclick="captain(10)">C&nbsp</span><span id="20" onclick="vice_c(10)">VC</span></div>	    
+<div>11.Rohit Sharma <span id="11" onclick="captain(11)">C&nbsp</span><span id="21" onclick="vice_c(11)">VC</span></div>
 </div>	  
 
 <script>
@@ -108,12 +108,12 @@ x=i+1;
 i=40;
 }
 }
-document.getElementById(x).style.background="#800eb6";
-document.getElementById(x).style.color="white";
+document.getElementById(x+10).style.background="#800eb6";
+document.getElementById(x+10).style.color="white";
 for(i=1;i<=11;i++){
 if(i!=x){
-document.getElementById(i).style.background="rgba(222,222,222,0.5)";
-document.getElementById(i).style.color="grey";
+document.getElementById(i+10).style.background="rgba(222,222,222,0.5)";
+document.getElementById(i+10).style.color="grey";
 }
 }
 }
