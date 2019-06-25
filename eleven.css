@@ -208,6 +208,8 @@ margin:0;
 }
 .save button{
 width:600px;
+positipn:absolute;
+left:50%;
 height:200px;
 margin:10px auto;
 font-size:40px;
