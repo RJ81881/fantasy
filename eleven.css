@@ -201,17 +201,18 @@ font-size:65px;
 color:red;
 }
 .save{
-width:105%;
-height:400px;
+width:109%;
+height:450px;
 background:#800eb6;
 margin:0;
 }
 .save button{
 width:600px;
-height:250px;
+height:200px;
 margin:10px auto;
 font-size:45px;
 color:white;
+border-radius:20px;
 background:rgb(66,137,185);
 text-align:center;
 }
