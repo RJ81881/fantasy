@@ -126,13 +126,25 @@ document.getElementById(i+11).style.color="grey";
 </script>
 <script>
 function save(){
-var i;
+var i,c1=0,c2=0,no1,no2;
 for(i=0;i<11;i++){
-
-	    
-	    
-	    </script>	    
-	    
+if(cap[i]==1){ 
+c1=c1+1;
+no1=i+1;
+i=12;
+}
+}
+for(i=0;i<11;i++){
+if(cap1[i+11]==1){ 
+c2=c2+1;
+no2=i+1+11;
+i=12;
+}
+}
+document.getElementById(no1).innerHTML = "C";
+document.getElementById(no2).innerHTML = "VC";
+}
+</script>	    
 	    
 	    
 	    
