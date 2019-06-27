@@ -64,7 +64,7 @@
 <div>10.Rohit Sharma <span id="10" onclick="captain(10)">C&nbsp</span><span id="21" onclick="vice_c(10)">VC</span></div>	    
 <div>11.Rohit Sharma <span id="11" onclick="captain(11)">C&nbsp</span><span id="22" onclick="vice_c(11)">VC</span></div>
 </div>	  
- <div class="save"><button onclick="save()">Save Team</button></div>
+ <div class="save"><button onclick="save()" id="cp">Save Team</button></div>
 
 <p id="kk"></p>
 <script>
@@ -143,8 +143,8 @@ no2=i+1+11;
 i=12;
 }
 }
-document.getElementById(kk).innerHTML = "C";
-document.getElementById(kk).innerHTML = "VC";
+document.getElementById('cp').innerHTML = "C";
+document.getElementById('cp').innerHTML = "VC";
 }
 </script>	    
 	    
