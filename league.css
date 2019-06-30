@@ -159,7 +159,7 @@ line-height:80px;
 }
 .league{
 width:100%;
-margin:15px auto;
+margin:15px;
 padding:10px;
 height:300px;
 border:1px solid rgba(222,222,222,.5);
@@ -171,6 +171,6 @@ text-transform:capitalize;
 .league span{
 padding:15px;
 color:black;
-font-size:40px;
+font-size:30px;
 font-weight:bold;
 }
