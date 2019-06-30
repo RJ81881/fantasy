@@ -1,7 +1,7 @@
 body{margin:0px;padding:0px;}
 
 *{
- margin:0px;padding:0px;
+ margin:0px;padding:0px;box-sizing:border-box;
 }
 	
 
@@ -156,4 +156,21 @@ line-height:80px;
 	font-size:40px;
 	padding:20px;
 	font-weight:bold;
+}
+.league{
+width:100%;
+margin:15px;
+padding:10px;
+height:300px;
+border:1px solid rgba(222,222,222,.5);
+border-radius:20px;
+background:white;
+color:black;
+text-transform:capitalize;
+}
+.league span{
+padding:15px;
+color:black;
+font-size:30px;
+font-weight:bold;
 }
