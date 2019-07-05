@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home/Sports/Cricket</title>
+     
+	    <link rel="stylesheet" href="eleven.css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <script>
+	   var team11 = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
+	   </script>
+	</head>
+	
+    <body>
+<div class="menu">   
+	<div id="sidebar">
+        <div class="toggle" onclick="gg()" >
+             <span></span> 
+             <span></span>
+             <span></span>
+          </div>
+    
+	<img src="https://t3.ftcdn.net/jpg/00/94/45/72/240_F_94457263_BtdFoRIdMnTzLoaxAaAbDMoqgqYpedsf.jpg" width="200px"
+	    height="200px" style="border:1px solid black;border-radius:50%;position:absolute;left:220px;top:100px;padding:20px;"/>      
+     
+	   <p id="Name" style="font-size:45px;font-weight:bold;"><?php echo $_SESSION['Name']; ?></p>
+       
+	   <p style="position:absolute;top:500px;left:20px;font-size:45px;font-weight:bold;">Available Balance : <i class="fa fa-inr"></i><?php echo $mo; ?></p>
+		
+	    <div class="block" style="width:660px;position:absolute;top:600.5px;margin-top:30px;padding:20px; height:1000px;background-color:white;">
+            <ul>
+        <li><a href="#" style="font-size:45px;font-weight:bold;">Home</a></li>
+	    <li><a href="#" style="font-size:45px;font-weight:bold;">How to play</a></li>
+        <li><a href="#" style="font-size:45px;font-weight:bold;">Your Matches</a></li>
+        <li><a href="#" style="font-size:45px;font-weight:bold;">Point System</a></li><hr>
+        <li><a href="#" style="font-size:45px;font-weight:bold;">About Us</a></li>
+	    <li><a href="#" style="font-size:45px;font-weight:bold;">Terms and conditions</a></li>
+	</ul></div>
+		    
+			 
+		
+</div>
+	</div> 
+	  
+	        <div class="make" id="zz">
+	  <h1>PLAY 11</h1><br><br><br>
+	  <p>Choose Captain And Vice-Captain</p>
+	  <br>
+	  <div class="te">
+	  <span id="t1">MUM</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp : &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <span id="t2">CSK</span>
+	     </div> <p>&nbsp&nbsp&nbsp&nbsp <i>C -</i>Captain &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <i>VC - </i>Vice Captain</p>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <b><strong>2</strong>X points</b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b><strong>1.5</strong>X points</b>
+	    </div> 
+	   
+<div class="preview">
+<div>1. Rohit Sharma <span id="1" onclick="captain(1)">C&nbsp</span><span id="12" onclick="vice_c(1)">VC</span></div>
+<div>2. Rohit Sharma <span id="2" onclick="captain(2)">C&nbsp</span><span id="13" onclick="vice_c(2)">VC</span></div>
+<div>3. Rohit Sharma <span id="3" onclick="captain(3)">C&nbsp</span><span id="14" onclick="vice_c(3)">VC</span></div>
+<div>4. Rohit Sharma <span id="4" onclick="captain(4)">C&nbsp</span><span id="15" onclick="vice_c(4)">VC</span></div>
+<div>5. Rohit Sharma <span id="5" onclick="captain(5)">C&nbsp</span><span id="16" onclick="vice_c(5)">VC</span></div>
+<div>6. Rohit Sharma <span id="6" onclick="captain(6)">C&nbsp</span><span id="17" onclick="vice_c(6)">VC</span></div>
+<div>7. Rohit Sharma <span id="7" onclick="captain(7)">C&nbsp</span><span id="18" onclick="vice_c(7)">VC</span></div>
+<div>8. Rohit Sharma <span id="8" onclick="captain(8)">C&nbsp</span><span id="19" onclick="vice_c(8)">VC</span></div>
+<div>9. Rohit Sharma <span id="9" onclick="captain(9)">C&nbsp</span><span id="20" onclick="vice_c(9)">VC</span></div>	    
+<div>10.Rohit Sharma <span id="10" onclick="captain(10)">C&nbsp</span><span id="21" onclick="vice_c(10)">VC</span></div>	    
+<div>11.Rohit Sharma <span id="11" onclick="captain(11)">C&nbsp</span><span id="22" onclick="vice_c(11)">VC</span></div>
+</div>	  
+ <div class="save"><button onclick="save()" id="cp">Save Team</button></div>
+	    <p id="c1"></p><p id="c"></p>
+
+<p id="kk"></p>
+<script>
+var cap = [0,0,0,0,0,0,0,0,0,0,0];
+function captain(x){
+if(cap[x-1] !=1){
+var i,p=0;
+for(i=0;i<11;i++){
+if(i!=(x-1)){
+cap[i]=0;
+}
+}
+for(i=0;i<11;i++){
+if(cap[i]==1){
+x=i+1;
+i=40;
+}
+}
+document.getElementById(x).style.background="#800eb6";
+document.getElementById(x).style.color="white";
+document.getElementById(x+11).style.background="rgba(222,222,222,0.5)";
+document.getElementById(x+11).style.color="grey";
+for(i=1;i<=11;i++){
+if(i!=x){
+document.getElementById(i).style.background="rgba(222,222,222,0.5)";
+document.getElementById(i).style.color="grey";
+}
+}
+}
+}	    
+	    
+var cap1 = [0,0,0,0,0,0,0,0,0,0,0];
+function vice_c(x){
+if(cap1[x-1] !=1){
+var i,p=0;
+for(i=0;i<11;i++){
+if(i!=(x-1)){
+cap1[i]=0;
+}
+}
+for(i=0;i<11;i++){
+if(cap1[i]==1){
+x=i+1;
+i=40;
+}
+}
+document.getElementById(x+11).style.background="#800eb6";
+document.getElementById(x+11).style.color="white";
+document.getElementById(x).style.background="rgba(222,222,222,0.5)";
+document.getElementById(x).style.color="grey";
+for(i=1;i<=11;i++){
+if(i!=x){
+document.getElementById(i+11).style.background="rgba(222,222,222,0.5)";
+document.getElementById(i+11).style.color="grey";
+}
+}
+}
+}
+	
+function save(){
+var i,c1=0,c2=0,no1=0,no2=0;
+for(i=0;i<11;i++){
+if(cap[i]==1){ 
+c1=c1+1;
+no1=i+1;
+i=12;
+}
+}
+for(i=0;i<11;i++){
+if(cap1[i+11]==1){ 
+c2=c2+1;
+no2=i+1+11;
+i=12;
+}
+}
+document.getElementById('c1').innerHTML = no1;
+document.getElementById('c').innerHTML = no2;
+}	
+	
+	
+</script>
+    
+	    
+	    
+	    
+	    
+	    <script>
+    var i=0;
+    function gg()
+{  
+document.getElementById("sidebar").classList.toggle('active');
+i++;
+  ff(i);
+}
+function ff(i){
+   if((i%2)!=0) 
+   {  
+      document.getElementById("zz").style.display="none";
+   }
+else
+{
+   document.getElementById("zz").style.display="block"; 
+}
+}
+      </script>    
+	    
+       </body>
+       </html>
