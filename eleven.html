@@ -67,7 +67,7 @@
  <div class="save"><button onclick="save()" id="cp">Save Team</button></div>
 	    <p id="c1"></p><p id="c"></p>
 
-<p id="kk"></p>
+<p id="kk"></p<script>>
 <script>
 var cap = [0,0,0,0,0,0,0,0,0,0,0];
 function captain(x){
@@ -95,10 +95,8 @@ document.getElementById(i).style.color="grey";
 }
 }
 }
-}
-</script>	    
+}	    
 	    
-<script>
 var cap1 = [0,0,0,0,0,0,0,0,0,0,0];
 function vice_c(x){
 if(cap1[x-1] !=1){
@@ -126,8 +124,7 @@ document.getElementById(i+11).style.color="grey";
 }
 }
 }
-</script>
-<script>
+	
 function save(){
 var i,c1=0,c2=0,no1=0,no2=0;
 for(i=0;i<11;i++){
@@ -146,8 +143,11 @@ i=12;
 }
 document.getElementById('c1').innerHTML = no1;
 document.getElementById('c').innerHTML = no2;
-}
-</script>	    
+}	
+	
+	
+</script>
+    
 	    
 	    
 	    
