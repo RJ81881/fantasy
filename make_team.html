@@ -117,7 +117,7 @@
 		<div class="p1" id="ar7"><img src="yt.com"><span id="Ar7" class="mi">Mitchell Santner | CSK</span><i class="fa fa-plus-circle" id="plu36" onclick="selectar(this,7)"></i></div>
 	    </div>
 	    
-	    <div class="finish"><button onclick="checkdata()">Next</button></div>
+	    <div class="finish"><button onclick="checkdata()" id="pir">Next</button></div>
 	    <p id="plr"></p>
 	    <script>
 	   var a=[0,0,0,0,0];
@@ -373,10 +373,16 @@ function ff(i){
    if((i%2)!=0) 
    {  
       document.getElementById("zz").style.display="none";
+	   document.getElementById("p").style.display="none";
+	   document.getElementById("pi").style.display="none";
+	   document.getElementById("pir").style.display="none";
    }
 else
 {
    document.getElementById("zz").style.display="block"; 
+	document.getElementById("p").style.display="block";
+	   document.getElementById("pi").style.display="block";
+	   document.getElementById("pir").style.display="block";
 }
 }
       </script>
